@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "CarrotAPI",
+        "description": "§7An API for world editing. Absolutely necessary for Carrot, provided by Carrot. MIT License Copyright (c) 2021 Zorillac",
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:zorillac",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
