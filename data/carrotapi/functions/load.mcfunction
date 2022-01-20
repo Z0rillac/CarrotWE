@@ -11,9 +11,12 @@ scoreboard objectives add carrotapi.temp dummy
 scoreboard objectives add carrotapi.overlapping dummy
 scoreboard objectives add carrotapi.pattern dummy
 
-kill @e[tag=carrotapi.marker]
-summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["carrotapi.marker"]}
-#alias entity marker @e[tag=carrotapi.marker,limit=1]
+kill @e[tag=carrotapi.out]
+kill @e[tag=carrotapi.in]
+summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["carrotapi.out"]}
+summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["carrotapi.in"]}
+#alias entity marker @e[tag=carrotapi.out,limit=1]
+#alias entity in @e[tag=carrotapi.in,limit=1]
 
 # cache, if you want to change thier position, good luck ;)
 forceload add 29999984 15360000

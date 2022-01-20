@@ -9,16 +9,14 @@
 bossbar set carrotapi:progress players @s
 
 function carrotapi:area/get
-function carrotapi:functions/fill/clear/get_pattern
-
-scoreboard players set xPartSize carrotapi.temp 0
-scoreboard players set yPartSize carrotapi.temp 0
-scoreboard players set zPartSize carrotapi.temp 0
 
 scoreboard players set x carrotapi.main 0
 scoreboard players set y carrotapi.main 0
 scoreboard players set z carrotapi.main 0
 scoreboard players set blocks carrotapi.main 0
+
+scoreboard players operation yz carrotapi.temp = outSizeY carrotapi.areas
+scoreboard players operation yz carrotapi.temp *= outSizeZ carrotapi.areas
 
 execute store result bossbar carrotapi:progress max run scoreboard players get outSize carrotapi.areas
 
@@ -27,8 +25,7 @@ execute store result entity @e[tag=carrotapi.out,limit=1] Pos[0] double 1 run sc
 execute store result entity @e[tag=carrotapi.out,limit=1] Pos[1] double 1 run scoreboard players get outY0 carrotapi.areas
 execute store result entity @e[tag=carrotapi.out,limit=1] Pos[2] double 1 run scoreboard players get outZ0 carrotapi.areas
 
-function carrotapi:functions/fill/clear/load_x
-execute as @e[tag=carrotapi.out,limit=1] at @s run function carrotapi:functions/fill/clear/xyz
+execute as @e[tag=carrotapi.out,limit=1] at @s run function carrotapi:functions/fill/random/xyz
 
 scoreboard players set x carrotapi.main 0
 
