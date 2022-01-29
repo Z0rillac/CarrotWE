@@ -9,6 +9,7 @@
 bossbar set carrotapi:progress players @s
 
 function carrotapi:area/get
+function carrotapi:pool/pick_random/init
 
 scoreboard players set x carrotapi.main 0
 scoreboard players set y carrotapi.main 0
