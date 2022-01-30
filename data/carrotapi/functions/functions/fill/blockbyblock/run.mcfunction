@@ -7,9 +7,6 @@
 
 # This is for functions development, please use "fill", it is the same but faster.
 
-# not to be in the api :
-bossbar set carrotapi:progress players @s
-
 function carrotapi:area/get
 
 scoreboard players set x carrotapi.main 0
@@ -28,9 +25,8 @@ execute store result entity @e[tag=carrotapi.out,limit=1] Pos[1] double 1 run sc
 execute store result entity @e[tag=carrotapi.out,limit=1] Pos[2] double 1 run scoreboard players get outZ0 carrotapi.areas
 
 execute as @e[tag=carrotapi.out,limit=1] at @s run function carrotapi:functions/fill/blockbyblock/xyz
+tp @e[tag=carrotapi.out,limit=1] 29999999 1 15360000
 
 scoreboard players set x carrotapi.main 0
 
 bossbar set carrotapi:progress value 0
-# not to be in the api :
-bossbar set carrotapi:progress players

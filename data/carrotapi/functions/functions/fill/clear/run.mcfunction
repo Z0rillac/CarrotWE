@@ -5,9 +5,6 @@
  # Created by Zorillac.
 ##
 
-# not to be in the api :
-bossbar set carrotapi:progress players @s
-
 function carrotapi:area/get
 function carrotapi:functions/fill/clear/get_pattern
 
@@ -29,9 +26,8 @@ execute store result entity @e[tag=carrotapi.out,limit=1] Pos[2] double 1 run sc
 
 function carrotapi:functions/fill/clear/load_x
 execute as @e[tag=carrotapi.out,limit=1] at @s run function carrotapi:functions/fill/clear/xyz
+tp @e[tag=carrotapi.out,limit=1] 29999999 1 15360000
 
 scoreboard players set x carrotapi.main 0
 
 bossbar set carrotapi:progress value 0
-# not to be in the api :
-bossbar set carrotapi:progress players
