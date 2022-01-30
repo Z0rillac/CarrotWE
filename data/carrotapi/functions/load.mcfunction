@@ -10,6 +10,10 @@ scoreboard objectives add carrotapi.main dummy
 scoreboard objectives add carrotapi.temp dummy
 scoreboard objectives add carrotapi.overlapping dummy
 scoreboard objectives add carrotapi.pattern dummy
+scoreboard objectives add carrotapi.config dummy
+scoreboard objectives add carrotapi.checks dummy
+
+function carrotapi:config
 
 execute unless data storage carrotapi:pos set run data merge storage carrotapi:pos {set:true,root:{}}
 
