@@ -11,6 +11,8 @@ scoreboard objectives add carrotapi.temp dummy
 scoreboard objectives add carrotapi.overlapping dummy
 scoreboard objectives add carrotapi.pattern dummy
 
+execute unless data storage carrotapi:pos set run data merge storage carrotapi:pos {set:true,root:{}}
+
 kill @e[tag=carrotapi.out]
 kill @e[tag=carrotapi.in]
 summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["carrotapi.out"]}
