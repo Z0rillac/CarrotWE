@@ -5,6 +5,8 @@
  # Created by Zorillac.
 ##
 
+# This is for functions development, please use "fill", it is the same but faster.
+
 # not to be in the api :
 bossbar set carrotapi:progress players @s
 
