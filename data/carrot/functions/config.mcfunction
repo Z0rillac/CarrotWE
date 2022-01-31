@@ -13,7 +13,7 @@
 #team modify carrot.invalid color red
 
 #scoreboard players set max_size_in carrotapi.config 16777216
-#scoreboard players set max_size_out carrotapi.config 16
+#scoreboard players set max_size_out carrotapi.config 16777216
 
 #scoreboard players set max_x_in carrotapi.config 4096
 #scoreboard players set max_y_in carrotapi.config 4096
