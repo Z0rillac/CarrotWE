@@ -5,6 +5,11 @@
  # Created by Zorillac.
 ##
 
+team modify carrot.in color yellow
+team modify carrot.out color green
+team modify carrot.selected color white
+team modify carrot.invalid color red
+
 scoreboard players set max_size_in carrotapi.config 16777216
 scoreboard players set max_size_out carrotapi.config 16777216
 
