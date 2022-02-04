@@ -3,24 +3,24 @@
     "value": {
       "type": "minecraft:score",
       "target": "this",
-      "score": "carrot.session_ID"
+      "score": "carrot.sid.area_part"
     },
     "range": {
       "min": {
         "type": "minecraft:score",
         "target": {
           "type": "minecraft:fixed",
-          "name": "#search"
+          "name": "search"
         },
-        "score": "carrot.session_ID"
+        "score": "carrot.sid"
       },
       "max": {
         "type": "minecraft:score",
         "target": {
           "type": "minecraft:fixed",
-          "name": "#search"
+          "name": "search"
         },
-        "score": "carrot.session_ID"
+        "score": "carrot.sid"
       }
     }
   }
