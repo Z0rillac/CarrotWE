@@ -20,8 +20,6 @@ kill @e[tag=carrotapi.out]
 kill @e[tag=carrotapi.in]
 summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["carrotapi.out"]}
 summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["carrotapi.in"]}
-#alias entity out @e[tag=carrotapi.out,limit=1]
-#alias entity in @e[tag=carrotapi.in,limit=1]
 
 bossbar add carrotapi:progress ""
 

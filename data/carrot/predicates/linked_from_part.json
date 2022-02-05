@@ -3,7 +3,7 @@
     "value": {
       "type": "minecraft:score",
       "target": "this",
-      "score": "carrot.area.sid.part"
+      "score": "carrot.area.sid"
     },
     "range": {
       "min": {

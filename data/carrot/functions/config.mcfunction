@@ -11,6 +11,9 @@ team modify carrot.out color green
 team modify carrot.pool color blue
 team modify carrot.selected color white
 team modify carrot.invalid color red
+team modify carrot.editing color white
+
+scoreboard players set max_raycast_distance carrot.config 64
 
 # Remove the # and edit to overwrite the default value
 
