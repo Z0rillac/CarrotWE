@@ -17,12 +17,6 @@ scoreboard objectives add carrot.area.Z0 dummy
 scoreboard objectives add carrot.area.X1 dummy
 scoreboard objectives add carrot.area.Y1 dummy
 scoreboard objectives add carrot.area.Z1 dummy
-scoreboard objectives add carrot.area.display.X0 dummy
-scoreboard objectives add carrot.area.display.Y0 dummy
-scoreboard objectives add carrot.area.display.Z0 dummy
-scoreboard objectives add carrot.area.display.X1 dummy
-scoreboard objectives add carrot.area.display.Y1 dummy
-scoreboard objectives add carrot.area.display.Z1 dummy
 scoreboard objectives add carrot.handle.hover dummy
 scoreboard objectives add carrot.handle.hover_state dummy
 scoreboard objectives add carrot.handle.team dummy

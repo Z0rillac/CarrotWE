@@ -5,19 +5,12 @@
  # Created by Zorillac.
 ##
 
-scoreboard players operation @s carrot.area.display.X0 = @s carrot.area.X0
-scoreboard players operation @s carrot.area.display.Y0 = @s carrot.area.Y0
-scoreboard players operation @s carrot.area.display.Z0 = @s carrot.area.Z0
-scoreboard players operation @s carrot.area.display.X1 = @s carrot.area.X1
-scoreboard players operation @s carrot.area.display.Y1 = @s carrot.area.Y1
-scoreboard players operation @s carrot.area.display.Z1 = @s carrot.area.Z1
-
-scoreboard players operation X0 carrot.temp = @s carrot.area.display.X0
-scoreboard players operation Y0 carrot.temp = @s carrot.area.display.Y0
-scoreboard players operation Z0 carrot.temp = @s carrot.area.display.Z0
-scoreboard players operation X1 carrot.temp = @s carrot.area.display.X1
-scoreboard players operation Y1 carrot.temp = @s carrot.area.display.Y1
-scoreboard players operation Z1 carrot.temp = @s carrot.area.display.Z1
+scoreboard players operation X0 carrot.temp = @s carrot.area.X0
+scoreboard players operation Y0 carrot.temp = @s carrot.area.Y0
+scoreboard players operation Z0 carrot.temp = @s carrot.area.Z0
+scoreboard players operation X1 carrot.temp = @s carrot.area.X1
+scoreboard players operation Y1 carrot.temp = @s carrot.area.Y1
+scoreboard players operation Z1 carrot.temp = @s carrot.area.Z1
 
 scoreboard players operation search carrot.sid = @s carrot.area.sid
 tag @s add carrot.sid_target

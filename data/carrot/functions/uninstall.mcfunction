@@ -23,12 +23,6 @@ scoreboard objectives remove carrot.area.Z0
 scoreboard objectives remove carrot.area.X1
 scoreboard objectives remove carrot.area.Y1
 scoreboard objectives remove carrot.area.Z1
-scoreboard objectives remove carrot.area.display.X0
-scoreboard objectives remove carrot.area.display.Y0
-scoreboard objectives remove carrot.area.display.Z0
-scoreboard objectives remove carrot.area.display.X1
-scoreboard objectives remove carrot.area.display.Y1
-scoreboard objectives remove carrot.area.display.Z1
 scoreboard objectives remove carrot.handle.hover
 scoreboard objectives remove carrot.handle.hover_state
 scoreboard objectives remove carrot.handle.team

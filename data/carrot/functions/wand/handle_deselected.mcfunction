@@ -5,6 +5,7 @@
  # Created by Zorillac.
 ##
 
+execute if entity @s[team=carrot.editing] run scoreboard players set @s carrot.handle.team -1
 execute if score @s carrot.handle.team matches 0 run team join carrot.none
 execute if score @s carrot.handle.team matches 1 run team join carrot.in
 execute if score @s carrot.handle.team matches 2 run team join carrot.out
