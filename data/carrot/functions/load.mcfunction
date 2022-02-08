@@ -5,10 +5,10 @@
  # Created by Zorillac.
 ##
 
-scoreboard objectives add carrot.phase dummy
 scoreboard objectives add carrot.temp dummy
 scoreboard objectives add carrot.config dummy
-scoreboard objectives add carrot.wand_click minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add carrot.wand.click minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add carrot.wand.state dummy
 scoreboard objectives add carrot.sid dummy
 scoreboard objectives add carrot.area.sid.part dummy
 scoreboard objectives add carrot.area.X0 dummy
@@ -26,6 +26,14 @@ scoreboard objectives add carrot.selected dummy
 scoreboard objectives add carrot.selected.X dummy
 scoreboard objectives add carrot.selected.Y dummy
 scoreboard objectives add carrot.selected.Z dummy
+scoreboard objectives add carrot.selected.previous.X0 dummy
+scoreboard objectives add carrot.selected.previous.Y0 dummy
+scoreboard objectives add carrot.selected.previous.Z0 dummy
+scoreboard objectives add carrot.selected.previous.X1 dummy
+scoreboard objectives add carrot.selected.previous.Y1 dummy
+scoreboard objectives add carrot.selected.previous.Z1 dummy
+scoreboard objectives add carrot.selected.raycast_mod dummy
+scoreboard objectives add carrot.raycast_mod dummy
 scoreboard objectives add carrot.working.in dummy
 scoreboard objectives add carrot.working.out dummy
 scoreboard objectives add carrot.working.pool dummy

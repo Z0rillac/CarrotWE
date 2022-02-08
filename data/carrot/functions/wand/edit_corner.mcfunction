@@ -1,11 +1,13 @@
 ##
- # editing_corner.mcfunction
+ # edit_corner.mcfunction
  # wand
  #
  # Created by Zorillac.
 ##
 
 scoreboard players operation @a[tag=carrot.user,limit=1] carrot.selected = @s carrot.area.sid.part
+
+execute as @e[tag=carrot.area,predicate=carrot:linked_from_part] run function carrot:wand/save_previous
 
 execute if entity @s[tag=carrot.corner.0] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c0
 execute if entity @s[tag=carrot.corner.1] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c1
@@ -33,7 +35,6 @@ execute if entity @s[tag=carrot.corner.22] as @a[tag=carrot.user,limit=1] run fu
 execute if entity @s[tag=carrot.corner.23] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c23
 execute if entity @s[tag=carrot.corner.24] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c24
 execute if entity @s[tag=carrot.corner.25] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c25
-scoreboard players set @a[tag=carrot.user,limit=1] carrot.phase 1
 
 team join carrot.editing @s
 

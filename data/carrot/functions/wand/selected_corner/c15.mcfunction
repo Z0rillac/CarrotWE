@@ -8,3 +8,4 @@
 scoreboard players set @s carrot.selected.X 0
 scoreboard players set @s carrot.selected.Y 1
 scoreboard players set @s carrot.selected.Z 0
+scoreboard players set @s carrot.selected.raycast_mod 1
