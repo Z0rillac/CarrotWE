@@ -25,8 +25,6 @@ scoreboard players add @s carrot.area.X1 2
 scoreboard players add @s carrot.area.Y1 2
 scoreboard players add @s carrot.area.Z1 2
 
-scoreboard players set @s carrot.area.type 2
-
 tag @s add carrot.area
 
 function carrot:area/new_area/summon
@@ -36,7 +34,4 @@ tag @e[tag=carrot.new_corner] remove carrot.new_corner
 
 scoreboard players operation @s carrot.area.sid = global carrot.sid
 
-scoreboard players add global carrot.sid 1
-
-function carrot:area/refresh/type
 function carrot:area/refresh/pos
