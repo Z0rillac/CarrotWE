@@ -349,5 +349,5 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 todo
-e
 .DS_Store
+data/carrot/functions/gui/
