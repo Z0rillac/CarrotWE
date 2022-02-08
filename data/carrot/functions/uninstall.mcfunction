@@ -17,6 +17,8 @@ scoreboard objectives remove carrot.config
 scoreboard objectives remove carrot.sid
 scoreboard objectives remove carrot.wand.click
 scoreboard objectives remove carrot.wand.state
+scoreboard objectives remove carrot.player.sid
+scoreboard objectives remove carrot.gui.minecart
 scoreboard objectives remove carrot.sid
 scoreboard objectives remove carrot.area.sid.part
 scoreboard objectives remove carrot.area.X0

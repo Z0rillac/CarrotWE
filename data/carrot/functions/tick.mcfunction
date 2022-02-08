@@ -6,3 +6,4 @@
 ##
 
 function carrot:wand/run
+#function carrot:gui/run

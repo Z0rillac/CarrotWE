@@ -9,6 +9,8 @@ scoreboard objectives add carrot.temp dummy
 scoreboard objectives add carrot.config dummy
 scoreboard objectives add carrot.wand.click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add carrot.wand.state dummy
+scoreboard objectives add carrot.player.sid dummy
+scoreboard objectives add carrot.gui.minecart dummy
 scoreboard objectives add carrot.sid dummy
 scoreboard objectives add carrot.area.sid.part dummy
 scoreboard objectives add carrot.area.X0 dummy
