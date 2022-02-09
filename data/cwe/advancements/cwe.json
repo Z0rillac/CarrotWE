@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "CarrotWE",
+        "description": "§7A powerful and fast world manipulation and editing tool. MIT License Copyright (c) 2022 Zorillac",
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "cwelib:cwelib",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -11,3 +11,5 @@ scoreboard objectives remove dplib.out
 scoreboard objectives remove dplib.const
 scoreboard objectives remove dplib.time
 scoreboard objectives remove dplib.raycast
+
+kill @e[tag=dplib]

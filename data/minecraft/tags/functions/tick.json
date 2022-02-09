@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         "dplib:core/tick",
-        "carrotapi:tick",
-        "carrot:tick"
+        "cwelib:tick",
+        "cwe:tick"
     ]
 }

@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         "dplib:core/load",
-        "carrotapi:load",
-        "carrot:load"
+        "cwelib:load",
+        "cwe:load"
     ]
 }
