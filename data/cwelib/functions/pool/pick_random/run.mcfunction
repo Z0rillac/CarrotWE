@@ -1,0 +1,8 @@
+##
+ # run.mcfunction
+ # 
+ #
+ # Created by Zorillac.
+##
+
+execute as @e[tag=cwelib.in,limit=1] at @s run function cwelib:pool/pick_random/as

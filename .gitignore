@@ -350,7 +350,7 @@ MigrationBackup/
 .ionide/
 todo
 .DS_Store
-data/cwelib/
+data/cwe/
 data/dplib/
 data/minecraft/
 gitignore
