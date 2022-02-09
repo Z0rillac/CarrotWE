@@ -6,10 +6,9 @@
 ##
 
 scoreboard players operation @a[tag=carrot.user,limit=1] carrot.selected = @s carrot.area.sid.part
-tellraw @a[tag=carrot.user,limit=1] ["",{"text":"["},{"selector":"@a[tag=carrot.user,limit=1]"},{"text":"] Selected : "},{"score":{"name":"@s","objective":"carrot.area.sid.part"}}]
 
 scoreboard players operation search carrot.sid = @a[tag=carrot.user,limit=1] carrot.selected
-execute as @e[tag=carrot.area,predicate=carrot:linked_from_part] run function carrot:wand/save_previous
+execute as @e[tag=carrot.area,predicate=carrot:linked_from_part] run function carrot:wand/save_coordinates
 
 execute if entity @s[tag=carrot.corner.0] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c0
 execute if entity @s[tag=carrot.corner.1] as @a[tag=carrot.user,limit=1] run function carrot:wand/selected_corner/c1

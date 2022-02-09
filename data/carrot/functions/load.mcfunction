@@ -35,6 +35,12 @@ scoreboard objectives add carrot.selected.previous.X1 dummy
 scoreboard objectives add carrot.selected.previous.Y1 dummy
 scoreboard objectives add carrot.selected.previous.Z1 dummy
 scoreboard objectives add carrot.selected.raycast_mod dummy
+scoreboard objectives add carrot.selected.X0 dummy
+scoreboard objectives add carrot.selected.Y0 dummy
+scoreboard objectives add carrot.selected.Z0 dummy
+scoreboard objectives add carrot.selected.X1 dummy
+scoreboard objectives add carrot.selected.Y1 dummy
+scoreboard objectives add carrot.selected.Z1 dummy
 scoreboard objectives add carrot.raycast_mod dummy
 scoreboard objectives add carrot.working.in dummy
 scoreboard objectives add carrot.working.out dummy

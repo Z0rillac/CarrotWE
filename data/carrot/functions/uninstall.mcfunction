@@ -42,6 +42,12 @@ scoreboard objectives remove carrot.selected.previous.Z0
 scoreboard objectives remove carrot.selected.previous.X1
 scoreboard objectives remove carrot.selected.previous.Y1
 scoreboard objectives remove carrot.selected.previous.Z1
+scoreboard objectives remove carrot.selected.X0
+scoreboard objectives remove carrot.selected.Y0
+scoreboard objectives remove carrot.selected.Z0
+scoreboard objectives remove carrot.selected.X1
+scoreboard objectives remove carrot.selected.Y1
+scoreboard objectives remove carrot.selected.Z1
 scoreboard objectives remove carrot.raycast_mod
 scoreboard objectives remove carrot.working.in
 scoreboard objectives remove carrot.working.out
