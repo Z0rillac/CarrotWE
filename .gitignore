@@ -350,4 +350,3 @@ MigrationBackup/
 .ionide/
 todo
 .DS_Store
-data/carrot/functions/gui/
