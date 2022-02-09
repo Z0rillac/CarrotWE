@@ -3,6 +3,7 @@
     "values": [
         "dplib:core/load",
         "cwelib:load",
+        "abcl:load",
         "cwe:load"
     ]
 }
