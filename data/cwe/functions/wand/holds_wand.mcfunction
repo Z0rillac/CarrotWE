@@ -1,0 +1,15 @@
+##
+ # holds_wand.mcfunction
+ # 
+ #
+ # Created by Zorillac.
+##
+
+tag @s add cwe.user
+scoreboard players add @s cwe.selected 0
+scoreboard players set @s cwe.wand.state 1
+execute if score @s cwe.selected matches 0 run title @s actionbar ["",{"text":"CarrotWE v1.0.0 | Working in: ","color":"gold"},{"score":{"name":"@s","objective":"cwe.working.in"},"color":"green"},{"text":" Working out: ","color":"gold"},{"score":{"name":"@s","objective":"cwe.working.out"},"color":"green"},{"text":" Working pool: ","color":"gold"},{"score":{"name":"@s","objective":"cwe.working.pool"},"color":"green"}]
+execute if score @s cwe.selected matches 0 run function cwe:wand/hovering_handle_raycast
+execute if score @s cwe.selected matches 1.. run function cwe:wand/editing_corner
+execute if score @s cwe.wand.click matches 1.. run function cwe:wand/air_click
+tag @s remove cwe.user
