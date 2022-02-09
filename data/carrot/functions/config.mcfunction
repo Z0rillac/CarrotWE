@@ -15,6 +15,8 @@ team modify carrot.editing color white
 
 scoreboard players set max_raycast_distance carrot.config 64
 
+bossbar set carrotapi:progress color green
+
 # Remove the # and edit to overwrite the default value
 
 #scoreboard players set max_size_in carrotapi.config 16777216
