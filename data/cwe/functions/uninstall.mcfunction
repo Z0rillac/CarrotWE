@@ -45,6 +45,22 @@ scoreboard objectives remove cwe.raycast_mod
 scoreboard objectives remove cwe.working.in
 scoreboard objectives remove cwe.working.out
 scoreboard objectives remove cwe.working.pool
+scoreboard objectives remove wand
+scoreboard objectives remove select
+scoreboard objectives remove deselect
+scoreboard objectives remove desel
+scoreboard objectives remove working
+scoreboard objectives remove new_in
+scoreboard objectives remove new_out
+scoreboard objectives remove new_pool
+scoreboard objectives remove working_in
+scoreboard objectives remove working_out
+scoreboard objectives remove working_pool
+scoreboard objectives remove fill
+scoreboard objectives remove clear
+scoreboard objectives remove random
+scoreboard objectives remove random_fill
+scoreboard objectives remove block_input
 
 team remove cwe.none
 team remove cwe.in

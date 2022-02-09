@@ -53,4 +53,5 @@ execute if score outSizeZ cwelib.temp <= max_z_out cwelib.config run scoreboard 
 execute if score inSize cwelib.temp <= max_size_in cwelib.config run scoreboard players set config.max_size_in cwelib.checks 1
 execute if score outSize cwelib.temp <= max_size_out cwelib.config run scoreboard players set config.max_size_out cwelib.checks 1
 
-execute if score config.max_x_in cwelib.checks matches 1 if score config.max_y_in cwelib.checks matches 1 if score config.max_z_in cwelib.checks matches 1 if score config.max_x_out cwelib.checks matches 1 if score config.max_y_out cwelib.checks matches 1 if score config.max_z_out cwelib.checks matches 1 if score config.max_size_in cwelib.checks matches 1 if score config.max_size_out cwelib.checks matches 1 run scoreboard players set config cwelib.checks 1
+execute if score config.max_x_in cwelib.checks matches 1 if score config.max_y_in cwelib.checks matches 1 if score config.max_z_in cwelib.checks matches 1 if score config.max_size_in cwelib.checks matches 1 run scoreboard players set config.in cwelib.checks 1
+execute if score config.max_x_out cwelib.checks matches 1 if score config.max_y_out cwelib.checks matches 1 if score config.max_z_out cwelib.checks matches 1 if score config.max_size_out cwelib.checks matches 1 run scoreboard players set config.out cwelib.checks 1

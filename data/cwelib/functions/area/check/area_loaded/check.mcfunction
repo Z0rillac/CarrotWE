@@ -31,6 +31,7 @@ execute store result storage cwelib:pos root.Pos[2] double 1 run scoreboard play
 data modify entity @s Pos set from storage cwelib:pos root.Pos
 execute at @s unless block ~ ~ ~ #cwelib:null run scoreboard players set area_loaded.out1 cwelib.checks 1
 
-execute if score area_loaded.in0 cwelib.checks matches 1 if score area_loaded.in1 cwelib.checks matches 1 if score area_loaded.out0 cwelib.checks matches 1 if score area_loaded.out1 cwelib.checks matches 1 run scoreboard players set area_loaded cwelib.checks 1 
+execute if score area_loaded.in0 cwelib.checks matches 1 if score area_loaded.in1 cwelib.checks matches 1 run scoreboard players set area_loaded.in cwelib.checks 1 
+execute if score area_loaded.out0 cwelib.checks matches 1 if score area_loaded.out1 cwelib.checks matches 1 run scoreboard players set area_loaded.out cwelib.checks 1 
 
 tp @s 29999999 0 15360000

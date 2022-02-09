@@ -45,7 +45,26 @@ scoreboard objectives add cwe.raycast_mod dummy
 scoreboard objectives add cwe.working.in dummy
 scoreboard objectives add cwe.working.out dummy
 scoreboard objectives add cwe.working.pool dummy
-execute unless score global cwe.sid matches 1.. run scoreboard players add global cwe.sid 1
+
+#Demo
+scoreboard objectives add wand trigger
+scoreboard objectives add select trigger
+scoreboard objectives add deselect trigger
+scoreboard objectives add desel trigger
+scoreboard objectives add working trigger
+scoreboard objectives add new_in trigger
+scoreboard objectives add new_out trigger
+scoreboard objectives add new_pool trigger
+scoreboard objectives add working_in trigger
+scoreboard objectives add working_out trigger
+scoreboard objectives add working_pool trigger
+scoreboard objectives add fill trigger
+scoreboard objectives add clear trigger
+scoreboard objectives add random trigger
+scoreboard objectives add random_fill trigger
+scoreboard objectives add block_input trigger
+
+execute unless score global cwe.sid matches 2.. run scoreboard players add global cwe.sid 1
 
 
 team add cwe.none "cwe.none"
