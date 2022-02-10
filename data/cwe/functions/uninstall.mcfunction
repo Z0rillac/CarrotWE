@@ -5,6 +5,8 @@
  # Created by Zorillac.
 ##
 
+say §7Uninstalling CarrotWE v1.0.0-beta ...
+
 scoreboard objectives remove cwe.temp
 scoreboard objectives remove cwe.config
 scoreboard objectives remove cwe.wand.click
@@ -82,3 +84,13 @@ scoreboard objectives remove abcl.math2
 
 function cwelib:uninstall
 function dplib:uninstall
+
+scoreboard objectives add cwe.disable dummy
+scoreboard players set success cwe.disable 0
+execute if score success cwe.disable matches 0 store success score success cwe.disable run datapack disable "file/CarrotWE"
+execute if score success cwe.disable matches 0 store success score success cwe.disable run datapack disable "file/CarrotWE.zip"
+
+execute if score success cwe.disable matches 0 run say §7Cannot automatically disable CarrotWE v1.0.0-beta, please do it manually.
+execute if score success cwe.disable matches 1 run say §7CarrotWE v1.0.0-beta successfully uninstalled.
+
+scoreboard objectives remove cwe.disable
