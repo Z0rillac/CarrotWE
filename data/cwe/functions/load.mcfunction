@@ -64,7 +64,7 @@ scoreboard objectives add random trigger
 scoreboard objectives add random_fill trigger
 scoreboard objectives add block_input trigger
 
-execute unless score global cwe.sid matches 2.. run scoreboard players add global cwe.sid 1
+execute unless score global cwe.sid matches 2.. run scoreboard players add global cwe.sid 2
 
 
 team add cwe.none "cwe.none"
