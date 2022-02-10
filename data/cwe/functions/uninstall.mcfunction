@@ -70,5 +70,15 @@ team remove cwe.selected
 team remove cwe.invalid
 team remove cwe.editing
 
+execute as @e[tag=cwe.corner] run function cwe:area/kill_corner
+kill @e[tag=cwe]
+
+#abcl
+scoreboard objectives remove abcl.priority
+scoreboard objectives remove abcl.leaves
+scoreboard objectives remove abcl.scheduled
+scoreboard objectives remove abcl.math
+scoreboard objectives remove abcl.math2
+
 function cwelib:uninstall
 function dplib:uninstall
