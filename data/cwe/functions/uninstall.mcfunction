@@ -71,6 +71,7 @@ team remove cwe.pool
 team remove cwe.selected
 team remove cwe.invalid
 team remove cwe.editing
+team remove cwe.origin
 
 execute as @e[tag=cwe.corner] run function cwe:area/kill_corner
 kill @e[tag=cwe]

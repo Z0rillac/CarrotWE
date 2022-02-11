@@ -74,6 +74,7 @@ team add cwe.pool "cwe.pool"
 team add cwe.selected "cwe.selected"
 team add cwe.invalid "cwe.invalid"
 team add cwe.editing "cwe.editing"
+team add cwe.origin "cwe.origin"
 
 #team cwe.none 0
 #team cwe.in 1
@@ -82,6 +83,7 @@ team add cwe.editing "cwe.editing"
 #team cwe.selected 4
 #team cwe.invalid 5
 #team cwe.editing 6
+#team cwe.origin 7
 
 team modify cwe.none collisionRule never
 team modify cwe.in collisionRule never
@@ -90,5 +92,6 @@ team modify cwe.pool collisionRule never
 team modify cwe.selected collisionRule never
 team modify cwe.invalid collisionRule never
 team modify cwe.editing collisionRule never
+team modify cwe.origin collisionRule never
 
 function cwe:config
