@@ -5,7 +5,7 @@
  # Created by Zorillac.
 ##
 
-function cwelib:area/get
+function cwelib:area/get_out
 function cwelib:pool/init
 
 scoreboard players set x cwelib.main 0

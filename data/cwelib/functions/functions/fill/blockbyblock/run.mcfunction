@@ -7,7 +7,7 @@
 
 # This is for functions development, please use "fill", it is the same but faster.
 
-function cwelib:area/get
+function cwelib:area/get_out
 
 scoreboard players set x cwelib.main 0
 scoreboard players set y cwelib.main 0

@@ -5,7 +5,7 @@
  # Created by Zorillac.
 ##
 
-function cwelib:area/get
+function cwelib:area/get_out
 function cwelib:functions/fill/clear/get_pattern
 
 scoreboard players set xPartSize cwelib.temp 0
