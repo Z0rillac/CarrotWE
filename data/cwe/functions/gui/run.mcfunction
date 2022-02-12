@@ -5,4 +5,4 @@
  # Created by Zorillac.
 ##
 
-execute as @a at @s run function cwe:gui/player
+execute as @a at @s run function cwe:gui/as

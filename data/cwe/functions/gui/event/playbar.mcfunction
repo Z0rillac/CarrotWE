@@ -1,6 +1,0 @@
-##
- # playbar.mcfunction
- # 
- #
- # Created by .
-##

@@ -1,6 +1,0 @@
-##
- # test.mcfunction
- # 
- #
- # Created by .
-##

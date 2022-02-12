@@ -5,38 +5,17 @@
  # Created by .
 ##
 
-execute if score @s cwe.gui.minecart matches 1 run summon chest_minecart ~ ~ ~ {Tags:["cwe","cwe.gui"],Silent:1b,Invulnerable:1b,NoGravity:1b}
-execute if score @s cwe.gui.minecart matches 1 run function cwe:gui/refresh/run
-execute if score @s cwe.gui.minecart matches 1 run scoreboard players set @s cwe.gui.minecart 2
+execute as @a[tag=cwe.guiuser,limit=1] run function cwe:gui/predict
 
-scoreboard players set $precision cwe.x 5
-scoreboard players operation @s cwe.x2 = @s cwe.x1
-scoreboard players operation @s cwe.y2 = @s cwe.y1
-scoreboard players operation @s cwe.z2 = @s cwe.z1
-execute store result score @s cwe.x1 run data get entity @s Pos[0] 1000
-execute store result score @s cwe.y1 run data get entity @s Pos[1] 1000
-scoreboard players add @s cwe.y1 1620
-execute store result score @s cwe.z1 run data get entity @s Pos[2] 1000
-execute store result score @s cwe.x run data get entity @s Pos[0] 1000
-execute store result score @s cwe.y run data get entity @s Pos[1] 1000
-scoreboard players add @s cwe.y 1620
-execute store result score @s cwe.z run data get entity @s Pos[2] 1000
-scoreboard players operation @s cwe.x -= @s cwe.x2
-scoreboard players operation @s cwe.y -= @s cwe.y2
-scoreboard players operation @s cwe.z -= @s cwe.z2
-scoreboard players operation @s cwe.x *= $precision cwe.x
-scoreboard players operation @s cwe.y *= $precision cwe.x
-scoreboard players operation @s cwe.z *= $precision cwe.x
-scoreboard players operation @s cwe.x += @s cwe.x1
-scoreboard players operation @s cwe.y += @s cwe.y1
-scoreboard players operation @s cwe.z += @s cwe.z1
+execute store result entity @s Pos[0] double 0.015625 run scoreboard players get nx cwe.temp
+execute store result entity @s Pos[1] double 0.015625 run scoreboard players get ny cwe.temp
+execute store result entity @s Pos[2] double 0.015625 run scoreboard players get nz cwe.temp
 
-execute store result entity @e[tag=cwe.gui,sort=nearest,limit=1] Pos[0] double 0.001 run scoreboard players get @s cwe.x
-execute store result entity @e[tag=cwe.gui,sort=nearest,limit=1] Pos[1] double 0.001 run scoreboard players get @s cwe.y
-execute store result entity @e[tag=cwe.gui,sort=nearest,limit=1] Pos[2] double 0.001 run scoreboard players get @s cwe.z
-data merge entity @e[tag=cwe.gui,sort=nearest,limit=1] {Rotation:[0f,0f]}
+data modify entity @s Rotation set value [0f, 0f]
+
+scoreboard players add @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 0
+
+execute store result score roty cwe.temp run data get entity @a[tag=cwe.guiuser,limit=1] Rotation[1]
+execute unless score roty cwe.temp matches 80..90 run scoreboard players set @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 3
 
 function cwe:gui/detect/run
-function cwe:gui/refresh/run
-
-execute unless data entity @s {SelectedItemSlot:4} run scoreboard players set @s cwe.gui.minecart 3

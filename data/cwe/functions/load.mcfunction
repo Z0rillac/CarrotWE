@@ -10,7 +10,7 @@ scoreboard objectives add cwe.config dummy
 scoreboard objectives add cwe.wand.click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add cwe.wand.state dummy
 scoreboard objectives add cwe.player.sid dummy
-scoreboard objectives add cwe.gui.minecart dummy
+scoreboard objectives add cwe.scheduled dummy
 scoreboard objectives add cwe.sid dummy
 scoreboard objectives add cwe.area.sid.part dummy
 scoreboard objectives add cwe.area.X0 dummy
@@ -45,6 +45,12 @@ scoreboard objectives add cwe.raycast_mod dummy
 scoreboard objectives add cwe.working.in dummy
 scoreboard objectives add cwe.working.out dummy
 scoreboard objectives add cwe.working.pool dummy
+scoreboard objectives add cwe.gui.minecart dummy
+scoreboard objectives add cwe.gui.x dummy
+scoreboard objectives add cwe.gui.y dummy
+scoreboard objectives add cwe.gui.z dummy
+scoreboard objectives add cwe.gui.id dummy
+scoreboard objectives add cwe.gui.broken minecraft.killed:minecraft.chest_minecart
 
 #Demo
 scoreboard objectives add wand trigger
@@ -93,5 +99,9 @@ team modify cwe.selected collisionRule never
 team modify cwe.invalid collisionRule never
 team modify cwe.editing collisionRule never
 team modify cwe.origin collisionRule never
+
+scoreboard players set #filling_clear cwe.scheduled 1
+scoreboard players set #filling_fill cwe.scheduled 2
+scoreboard players set #filling_random cwe.scheduled 3
 
 function cwe:config

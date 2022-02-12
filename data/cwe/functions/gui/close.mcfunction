@@ -5,4 +5,4 @@
  # Created by .
 ##
 
-scoreboard players set @s cwe.gui.minecart 3
+scoreboard players set @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 3

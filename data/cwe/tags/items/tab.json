@@ -1,0 +1,12 @@
+{
+	"values": [
+		{
+			"id":"minecraft:lime_stained_glass_pane",
+			"required": false
+		},
+		{
+			"id":"minecraft:green_stained_glass_pane",
+			"required": false
+		}
+	]
+}
