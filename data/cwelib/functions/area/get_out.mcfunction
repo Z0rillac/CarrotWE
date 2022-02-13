@@ -28,14 +28,18 @@ execute if score Z0 cwelib.temp > Z1 cwelib.temp run scoreboard players operatio
 
 scoreboard players operation outSizeX cwelib.areas = outX1 cwelib.areas
 scoreboard players operation outSizeX cwelib.areas -= outX0 cwelib.areas
+execute if score outSizeX cwelib.areas matches ..-1 run scoreboard players operation outSizeX cwelib.areas *= -1 dplib.const
 scoreboard players operation outSizeX cwelib.areas += 1 dplib.const
 scoreboard players operation outSizeY cwelib.areas = outY1 cwelib.areas
 scoreboard players operation outSizeY cwelib.areas -= outY0 cwelib.areas
+execute if score outSizeY cwelib.areas matches ..-1 run scoreboard players operation outSizeY cwelib.areas *= -1 dplib.const
 scoreboard players operation outSizeY cwelib.areas += 1 dplib.const
 scoreboard players operation outSizeZ cwelib.areas = outZ1 cwelib.areas
 scoreboard players operation outSizeZ cwelib.areas -= outZ0 cwelib.areas
+execute if score outSizeZ cwelib.areas matches ..-1 run scoreboard players operation outSizeZ cwelib.areas *= -1 dplib.const
 scoreboard players operation outSizeZ cwelib.areas += 1 dplib.const
 
 scoreboard players operation outSize cwelib.areas = outSizeX cwelib.areas
 scoreboard players operation outSize cwelib.areas *= outSizeY cwelib.areas
 scoreboard players operation outSize cwelib.areas *= outSizeZ cwelib.areas
+execute if score outSize cwelib.areas matches ..-1 run scoreboard players operation outSize cwelib.areas *= -1 dplib.const
