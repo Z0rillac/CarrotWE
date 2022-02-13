@@ -22,5 +22,5 @@ scoreboard players operation size cwe.temp *= sizeY cwe.temp
 scoreboard players operation size cwe.temp *= sizeZ cwe.temp
 execute if score size cwe.temp matches ..-1 run scoreboard players operation size cwe.temp *= -1 dplib.const
 
-data modify storage abcl:storage temp.message set value {Message: '["",{"text":"Editing","color":"gold"},{"text":" "},{"score":{"name":"@s","objective":"cwe.selected"},"color":"green"},{"text":" from ","color":"gold"},{"score":{"name":"@s","objective":"cwe.selected.X0"},"color":"green"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"cwe.selected.Y0"},"color":"green"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"cwe.selected.Z0"},"color":"green"},{"text":" to ","color":"gold"},{"score":{"name":"@s","objective":"cwe.selected.X1"},"color":"green"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"cwe.selected.Y1"},"color":"green"},{"text":" ","color":"green"},{"score":{"name":"@s","objective":"cwe.selected.Z1"},"color":"green"},{"text":" Size ","color":"gold"},{"score":{"name":"size","objective":"cwe.temp"},"color":"green"}]',Priority:2,ClearImmediately:true}
-function abcl:message/check
+data modify storage abcl:storage temp.message.Message set from storage cwe:texts root.editing_corner
+function cwe:texts/title_p2
