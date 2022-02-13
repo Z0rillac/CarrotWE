@@ -37,3 +37,9 @@ scoreboard players set #page.cloning cwe.ids 5
 scoreboard players set #page.geometry cwe.ids 6
 scoreboard players set #page.brushes cwe.ids 7
 scoreboard players set #page.settings cwe.ids 8
+
+# type
+scoreboard players set #type.none cwe.ids 0
+scoreboard players set #type.in cwe.ids 1
+scoreboard players set #type.out cwe.ids 2
+scoreboard players set #type.pool cwe.ids 3
