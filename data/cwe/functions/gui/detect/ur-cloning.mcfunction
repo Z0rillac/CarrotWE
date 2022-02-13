@@ -5,14 +5,14 @@
  # Created by .
 ##
 
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_shortcuts"}}] run function cwe:gui/event/tab_shortcuts
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_filling"}}] run function cwe:gui/event/tab_filling
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_replacing"}}] run function cwe:gui/event/tab_replacing
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_cloning"}}] run function cwe:gui/event/tab_cloning
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_geometry"}}] run function cwe:gui/event/tab_geometry
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_brushes"}}] run function cwe:gui/event/tab_brushes
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"tab_settings"}}] run function cwe:gui/event/tab_settings
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.shortcuts"}}] run function cwe:gui/event/page.shortcuts
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.filling"}}] run function cwe:gui/event/page.filling
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.replacing"}}] run function cwe:gui/event/page.replacing
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.cloning"}}] run function cwe:gui/event/page.cloning
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.geometry"}}] run function cwe:gui/event/page.geometry
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.brushes"}}] run function cwe:gui/event/page.brushes
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"page.settings"}}] run function cwe:gui/event/page.settings
 
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"cloning_clone"}}] run function cwe:gui/event/cloning_clone
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"cloning_transform"}}] run function cwe:gui/event/cloning_transform
-execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id matches 05 unless data entity @s Items[{tag:{cwe.gui:"cloning_pattern"}}] run function cwe:gui/event/cloning_pattern
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"function.cloning.clone"}}] run function cwe:gui/event/function.cloning.clone
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"function.cloning.transform"}}] run function cwe:gui/event/function.cloning.transform
+execute if score @a[tag=cwe.guiuser,limit=1] cwe.gui.id = #page.cloning cwe.ids unless data entity @s Items[{tag:{cwe.gui:"function.cloning.pattern"}}] run function cwe:gui/event/function.cloning.pattern

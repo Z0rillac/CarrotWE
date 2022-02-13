@@ -51,6 +51,7 @@ scoreboard objectives add cwe.gui.y dummy
 scoreboard objectives add cwe.gui.z dummy
 scoreboard objectives add cwe.gui.id dummy
 scoreboard objectives add cwe.gui.broken minecraft.killed:minecraft.chest_minecart
+scoreboard objectives add cwe.ids dummy
 
 #Demo
 scoreboard objectives add wand trigger
@@ -81,16 +82,6 @@ team add cwe.selected "cwe.selected"
 team add cwe.invalid "cwe.invalid"
 team add cwe.editing "cwe.editing"
 team add cwe.origin "cwe.origin"
-
-#team cwe.none 0
-#team cwe.in 1
-#team cwe.out 2
-#team cwe.pool 3
-#team cwe.selected 4
-#team cwe.invalid 5
-#team cwe.editing 6
-#team cwe.origin 7
-
 team modify cwe.none collisionRule never
 team modify cwe.in collisionRule never
 team modify cwe.out collisionRule never
@@ -100,8 +91,9 @@ team modify cwe.invalid collisionRule never
 team modify cwe.editing collisionRule never
 team modify cwe.origin collisionRule never
 
-scoreboard players set #filling_clear cwe.scheduled 1
-scoreboard players set #filling_fill cwe.scheduled 2
-scoreboard players set #filling_random cwe.scheduled 3
 
 function cwe:config
+function cwe:load_ids
+
+data merge storage cwe:texts {root:{}}
+function cwe:texts
