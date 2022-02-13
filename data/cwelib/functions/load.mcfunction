@@ -25,11 +25,6 @@ bossbar add cwelib:progress ""
 
 # These are chunks used for cache, if you want to change thier position in the whole code, good luck ;)
 
-# block input 1 : 29999999 1 15360000
-# block input 2 : 29999999 2 15360000
-# block buffer 1 : 29999999 -1 15360000
-# fast fill cache : 29999968 16 15360000 29999999 47 15360031
-
 forceload add 29999984 15360000
 forceload add 29999984 15360016
 forceload add 29999968 15360000
