@@ -12,6 +12,7 @@ team modify cwe.pool color blue
 team modify cwe.selected color white
 team modify cwe.invalid color red
 team modify cwe.editing color white
+team modify cwe.origin color aqua
 
 scoreboard players set max_raycast_distance cwe.config 64
 
