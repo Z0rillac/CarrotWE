@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "CarrotWE Library",
-        "description": "§7[v1.0.0-beta]\nA library for world editing. Absolutely necessary for CarrotWE, provided by CarrotWE.\nMIT License\nCopyright (c) 2022 Zorillac",
+        "description": "§7[v1.0.0-beta.1]\nA library for world editing. Absolutely necessary for CarrotWE, provided by CarrotWE.\nMIT License\nCopyright (c) 2022 Zorillac",
         "icon": {
             "item": "minecraft:carrot"
         },
