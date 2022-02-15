@@ -17,4 +17,3 @@ execute store result score roty cwe.temp run data get entity @a[tag=cwe.guiuser,
 execute unless score roty cwe.temp matches 80..90 run scoreboard players set @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 3
 
 function cwe:gui/detect/run
-clear @e[tag=cwe.guiuser,sort=nearest,limit=1,type=player] #cwe:gui.item

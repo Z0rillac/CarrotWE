@@ -12,8 +12,8 @@ scoreboard objectives remove cwelib.checks
 scoreboard objectives remove cwelib.areas
 scoreboard objectives remove cwelib.pattern
 
-data modify storage cwelib:pos root set value {}
-data modify storage cwelib:pos set set value false
+data remove storage cwelib:pos root
+data remove storage cwelib:pos set
 
 kill @e[tag=cwelib]
 

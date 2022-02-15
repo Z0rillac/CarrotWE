@@ -5,6 +5,8 @@
  # Created by Zorillac.
 ##
 
+gamerule maxCommandChainLength 16777216
+
 scoreboard objectives add cwe.temp dummy
 scoreboard objectives add cwe.config dummy
 scoreboard objectives add cwe.wand.click minecraft.used:minecraft.carrot_on_a_stick
@@ -50,7 +52,6 @@ scoreboard objectives add cwe.gui.x dummy
 scoreboard objectives add cwe.gui.y dummy
 scoreboard objectives add cwe.gui.z dummy
 scoreboard objectives add cwe.gui.id dummy
-scoreboard objectives add cwe.gui.broken minecraft.killed:minecraft.chest_minecart
 scoreboard objectives add cwe.ids dummy
 
 #Demo
@@ -91,6 +92,19 @@ team modify cwe.invalid collisionRule never
 team modify cwe.editing collisionRule never
 team modify cwe.origin collisionRule never
 
+#cfg
+team modify cwe.none color white
+team modify cwe.in color yellow
+team modify cwe.out color green
+team modify cwe.pool color blue
+team modify cwe.selected color white
+team modify cwe.invalid color red
+team modify cwe.editing color white
+team modify cwe.origin color aqua
+
+scoreboard players set max_raycast_distance cwe.config 64
+
+bossbar set cwelib:progress color green
 
 function cwe:config
 function cwe:load_ids

@@ -52,7 +52,6 @@ scoreboard objectives remove cwe.gui.x
 scoreboard objectives remove cwe.gui.y
 scoreboard objectives remove cwe.gui.z
 scoreboard objectives remove cwe.gui.id
-scoreboard objectives remove cwe.gui.broken
 scoreboard objectives remove cwe.ids
 scoreboard objectives remove wand
 scoreboard objectives remove select
@@ -83,12 +82,17 @@ team remove cwe.origin
 execute as @e[tag=cwe.corner] run function cwe:area/kill_corner
 kill @e[tag=cwe]
 
+data remove storage cwe:texts root
+data remove storage cwe:texts set
+
 #abcl
 scoreboard objectives remove abcl.priority
 scoreboard objectives remove abcl.leaves
 scoreboard objectives remove abcl.scheduled
 scoreboard objectives remove abcl.math
 scoreboard objectives remove abcl.math2
+
+data remove storage abcl:storage temp
 
 function cwelib:uninstall
 function dplib:uninstall
