@@ -12,7 +12,7 @@ scoreboard objectives remove cwe.config
 scoreboard objectives remove cwe.wand.click
 scoreboard objectives remove cwe.wand.state
 scoreboard objectives remove cwe.player.sid
-scoreboard objectives remove cwe.gui.minecart
+scoreboard objectives remove cwe.scheduled
 scoreboard objectives remove cwe.sid
 scoreboard objectives remove cwe.area.sid.part
 scoreboard objectives remove cwe.area.X0
@@ -47,6 +47,13 @@ scoreboard objectives remove cwe.raycast_mod
 scoreboard objectives remove cwe.working.in
 scoreboard objectives remove cwe.working.out
 scoreboard objectives remove cwe.working.pool
+scoreboard objectives remove cwe.gui.minecart
+scoreboard objectives remove cwe.gui.x
+scoreboard objectives remove cwe.gui.y
+scoreboard objectives remove cwe.gui.z
+scoreboard objectives remove cwe.gui.id
+scoreboard objectives remove cwe.gui.broken
+scoreboard objectives remove cwe.ids
 scoreboard objectives remove wand
 scoreboard objectives remove select
 scoreboard objectives remove deselect

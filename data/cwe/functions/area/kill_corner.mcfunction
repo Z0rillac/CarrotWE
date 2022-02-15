@@ -5,5 +5,6 @@
  # Created by Zorillac.
 ##
 
-data merge entity @s {Glowing:false,Invulnerable:false,NoAI:false}
-tp 29999999 -255 15360000
+data merge entity @s {Glowing:false,Size:0}
+tp @s 29999999 0 15360000
+kill @s

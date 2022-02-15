@@ -5,6 +5,6 @@
  # Created by .
 ##
 
-data modify entity @s Items set value []
-scoreboard players set @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 0
-kill @s
+data modify entity @e[tag=cwe.gui,sort=nearest,limit=1] Items set value []
+kill @e[tag=cwe.gui,sort=nearest,limit=1]
+scoreboard players set @s cwe.gui.minecart 0

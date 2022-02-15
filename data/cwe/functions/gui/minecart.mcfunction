@@ -13,9 +13,8 @@ execute store result entity @s Pos[2] double 0.015625 run scoreboard players get
 
 data modify entity @s Rotation set value [0f, 0f]
 
-scoreboard players add @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 0
-
 execute store result score roty cwe.temp run data get entity @a[tag=cwe.guiuser,limit=1] Rotation[1]
 execute unless score roty cwe.temp matches 80..90 run scoreboard players set @a[tag=cwe.guiuser,limit=1] cwe.gui.minecart 3
 
 function cwe:gui/detect/run
+clear @e[tag=cwe.guiuser,sort=nearest,limit=1,type=player] #cwe:gui.item

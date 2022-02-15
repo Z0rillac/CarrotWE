@@ -1,0 +1,64 @@
+{
+	"values": [
+		{
+			"id":"minecraft:lime_stained_glass_pane",
+			"required": false
+		},
+		{
+			"id":"minecraft:green_stained_glass_pane",
+			"required": false
+		},
+		{
+			"id":"minecraft:blue_stained_glass",
+			"required": false
+		},
+		{
+			"id":"minecraft:yellow_stained_glass",
+			"required": false
+		},
+		{
+			"id":"minecraft:lime_stained_glass",
+			"required": false
+		},
+		{
+			"id":"minecraft:glass",
+			"required": false
+		},
+		{
+			"id":"minecraft:barrier",
+			"required": false
+		},
+		{
+			"id":"minecraft:orange_concrete",
+			"required": false
+		},
+		{
+			"id":"minecraft:magenta_glazed_terracotta",
+			"required": false
+		},
+		{
+			"id":"minecraft:smooth_stone",
+			"required": false
+		},
+		{
+			"id":"minecraft:pink_concrete_powder",
+			"required": false
+		},
+		{
+			"id":"minecraft:light_blue_glazed_terracotta",
+			"required": false
+		},
+		{
+			"id":"minecraft:yellow_glazed_terracotta",
+			"required": false
+		},
+		{
+			"id":"minecraft:polished_deepslate",
+			"required": false
+		},
+		{
+			"id":"minecraft:dark_prismarine",
+			"required": false
+		}
+	]
+}
