@@ -5,6 +5,13 @@
  # Created by Zorillac.
 ##
 
+
+# CHOSE TRES SALE A CHANGER RAPIDEMENT
+execute as @e[tag=cwe.guiuser,sort=nearest,limit=1] run scoreboard players set @s cwe.gui.id 0100000100
+###
+
+
+
 summon chest_minecart ~ ~ ~ {Tags:["cwe","cwe.gui"],Silent:1b,Invulnerable:1b,NoGravity:1b,CustomName:'"CarrotWE v1.0.0-beta.1"'}
 
 execute as @a[tag=cwe.guiuser,limit=1] run function cwe:gui/get_gui
