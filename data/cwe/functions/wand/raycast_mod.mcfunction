@@ -17,5 +17,3 @@ execute if score @s cwe.raycast_mod = #raycast_mod.none cwe.ids run function cwe
 
 item replace entity @s weapon.mainhand from entity @s weapon.offhand
 item replace entity @s weapon.offhand with air
-
-scoreboard objectives add e killed:chest_minecart
