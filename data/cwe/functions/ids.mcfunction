@@ -5,6 +5,11 @@
  # Created by Zorillac.
 ##
 
+# verions
+scoreboard players set #version.none cwe.ids 0
+scoreboard players set #version.v1.0.0-beta cwe.ids 1
+scoreboard players set #version.v1.0.0-beta.1 cwe.ids 2
+
 # functions
 scoreboard players set #function.filling.clear cwe.ids 1
 scoreboard players set #function.filling.fill cwe.ids 2
@@ -35,13 +40,13 @@ scoreboard players set #type.out cwe.ids 2
 scoreboard players set #type.pool cwe.ids 3
 
 # gui
-scoreboard players set #gui.page.functions_list.shortcuts cwe.ids 1
-scoreboard players set #gui.page.functions_list.filling cwe.ids 2
-scoreboard players set #gui.page.functions_list.replacing cwe.ids 3
-scoreboard players set #gui.page.functions_list.cloning cwe.ids 4
-scoreboard players set #gui.page.functions_list.geometry cwe.ids 5
-scoreboard players set #gui.page.functions_list.brushes cwe.ids 6
-scoreboard players set #gui.page.functions_list.settings cwe.ids 7
+scoreboard players set #gui.page.functions_list.shortcuts cwe.ids 01
+scoreboard players set #gui.page.functions_list.filling cwe.ids 02
+scoreboard players set #gui.page.functions_list.replacing cwe.ids 03
+scoreboard players set #gui.page.functions_list.cloning cwe.ids 04
+scoreboard players set #gui.page.functions_list.geometry cwe.ids 05
+scoreboard players set #gui.page.functions_list.brushes cwe.ids 06
+scoreboard players set #gui.page.functions_list.settings cwe.ids 07
 
 scoreboard players set #gui.type.empty cwe.ids 00
 scoreboard players set #gui.type.functions_list cwe.ids 01

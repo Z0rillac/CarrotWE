@@ -7,11 +7,13 @@
 
 say §7Uninstalling CarrotWE v1.0.0-beta.1 ...
 
+scoreboard objectives remove cwe.main
 scoreboard objectives remove cwe.temp
 scoreboard objectives remove cwe.config
 scoreboard objectives remove cwe.wand.click
 scoreboard objectives remove cwe.wand.state
 scoreboard objectives remove cwe.player.sid
+scoreboard objectives remove cwe.player.first_co
 scoreboard objectives remove cwe.scheduled
 scoreboard objectives remove cwe.sid
 scoreboard objectives remove cwe.area.sid.part
