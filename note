@@ -1,1 +1,8 @@
-add ChromaKey81's ABC-Library https://github.com/ChromaKey81/ABC-Library
+fixer maxcommandchainlenght
+fixer f
+fixer domobloot
+
+pour les autres versions:
+detecter hold right click et implementer https://mc-datapacks.github.io/en/tips/holding_right_click_detection.html
+utiliser le tag global pour les chunks forceloadés https://mc-datapacks.github.io/en/conventions/global_forceload_tag.html
+mettre les tags ignore https://mc-datapacks.github.io/en/conventions/global_ignoring_tag.html
