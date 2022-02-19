@@ -40,7 +40,8 @@ In the future, we hope to add all this:
   - ...
 - organic functions ...
 ## How to help
-I'm currently looking for someone with a pc powerful enough to be able to record videos of presentations, demonstrations and tutorials
+~~I'm currently looking for someone with a pc powerful enough to be able to record videos of presentations, demonstrations and tutorials~~
+I'm looking for people who can translate in these languages: Russian, Chinese, Thai, Spanish, German
 ## Used in this datapack
 
 [Cloud Wolf's linking systeme by scoreboard](https://www.youtube.com/watch?v=685vs5hNQmk&t=300s)
