@@ -7,7 +7,7 @@
 
 scoreboard players operation maxx cwe.temp = X0 cwe.temp
 scoreboard players operation maxx cwe.temp += X1 cwe.temp
-scoreboard players operation maxx cwe.temp *= 10000 dplib.const
+scoreboard players operation maxx cwe.temp *= 2^6 dplib.const
 scoreboard players operation maxx cwe.temp /= 2 cwe.temp
 scoreboard players operation maxx cwe.temp -= px cwe.temp
 scoreboard players operation -maxx cwe.temp = maxx cwe.temp
