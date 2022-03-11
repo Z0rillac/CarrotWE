@@ -5,8 +5,6 @@
  # Created by Zorillac.
 ##
 
-gamerule maxCommandChainLength 16777216
-
 scoreboard objectives add cwe.temp dummy
 scoreboard objectives add cwe.config dummy
 scoreboard objectives add cwe.wand.click minecraft.used:minecraft.carrot_on_a_stick
