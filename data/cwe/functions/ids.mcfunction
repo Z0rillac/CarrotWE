@@ -66,3 +66,7 @@ scoreboard players set #gui.working.pool_out_in cwe.ids 07
 
 scoreboard players set #gui.function.home cwe.ids 00
 scoreboard players set #gui.function. cwe.ids 00
+
+# other
+scoreboard players set #default_mccl cwe.ids 65536
+scoreboard players set #min_mccl cwe.ids 8388608
