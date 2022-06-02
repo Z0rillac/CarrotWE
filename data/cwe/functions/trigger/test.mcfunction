@@ -16,10 +16,10 @@ execute if score @s new_pool matches 1.. run function cwe:area/new_area/pool
 execute if score @s working_in matches 1 run function cwe:trigger/functions/error_working_in
 execute if score @s working_out matches 1 run function cwe:trigger/functions/error_working_out
 execute if score @s working_pool matches 1 run function cwe:trigger/functions/error_working_pool
-execute if score @s fill matches 1.. run function cwe:functions/fill
-execute if score @s clear matches 1.. run function cwe:functions/clear
-execute if score @s random matches 1.. run function cwe:functions/random_fill
-execute if score @s random_fill matches 1.. run function cwe:functions/random_fill
+execute if score @s fill matches 1.. run function cwe:functions/fill/run
+execute if score @s clear matches 1.. run function cwe:functions/clear/run
+execute if score @s random matches 1.. run function cwe:functions/random_fill/run
+execute if score @s random_fill matches 1.. run function cwe:functions/random_fill/run
 execute if score @s block_input matches 1.. run function cwe:trigger/functions/block_input
 
 execute if score @s deselect matches 2.. run function cwe:trigger/functions/deselect

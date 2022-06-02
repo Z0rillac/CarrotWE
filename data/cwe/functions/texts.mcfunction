@@ -11,3 +11,4 @@ data modify storage cwe:texts root.editing_corner set value '["",{"text":"Editin
 data modify storage cwe:texts root.holds_wand set value '["",{"text":"CarrotWE v1.0.0-beta.1 | ","color":"gold"},{"text":"Look Down","color":"green"},{"text":" to open GUI ","color":"gold"},{"text":"Press ","color":"green"},{"keybind":"key.swapOffhand","color":"green"},{"text":" to change selection mod","color":"gold"}]'
 data modify storage cwe:texts root.raycast_mod.block set value '["",{"text":"Raycast mod: ","color":"gold"},{"text":"First block","color":"green"}]'
 data modify storage cwe:texts root.raycast_mod.distance set value '["",{"text":"Raycast mod: ","color":"gold"},{"score":{"name":"@s","objective":"cwe.raycast_mod"},"color":"green"}]'
+#data modify storage cwe:texts root.gui.shortcuts set value '{"text":"Shortcuts","color":"gold","italic":false}'

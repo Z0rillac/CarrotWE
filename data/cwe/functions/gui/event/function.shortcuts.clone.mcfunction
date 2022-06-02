@@ -1,11 +1,11 @@
 ##
- # toggle_on_multi-region.mcfunction
+ # function.cloning.clone.mcfunction
  # 
  #
  # Created by Zorillac.
 ##
 
 # disabled
-#say uni-region.toggle_on_multi-region
+#say function.cloning.clone
 
 function cwe:gui/refresh/run
