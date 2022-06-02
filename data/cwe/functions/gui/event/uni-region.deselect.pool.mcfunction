@@ -15,4 +15,4 @@ scoreboard players operation search cwe.sid = @e[tag=cwe.guiuser,sort=nearest,li
 execute as @e[tag=cwe.area,predicate=cwe:linked_from_part] run function cwe:area/remove
 scoreboard players set @e[tag=cwe.guiuser,sort=nearest,limit=1] cwe.working.pool 0
 
-function cwe:gui/close
+function cwe:gui/close/run

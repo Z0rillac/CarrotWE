@@ -7,8 +7,8 @@
 
 summon chest_minecart ~ ~ ~ {Tags:["cwe","cwe.gui"],Silent:1b,Invulnerable:1b,NoGravity:1b,CustomName:'"CarrotWE v1.0.0-beta.1"'}
 
-execute as @a[tag=cwe.guiuser,limit=1] run function cwe:gui/get_gui
-execute as @e[tag=cwe.gui,sort=nearest,limit=1] run function cwe:gui/refresh/run
+function cwe:gui/get_gui
+function cwe:gui/refresh/run
 
 execute store result score @s cwe.gui.x run data get entity @s Pos[0] 64
 execute store result score @s cwe.gui.y run data get entity @s Pos[1] 64

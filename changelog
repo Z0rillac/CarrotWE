@@ -1,1 +1,9 @@
+Fix d'un bug de chargement de plusieurs valeurs importantes entrainant des dysfonctionnements
 Fix d'un bug de chargement du module des ID
+Fix d'un bug de chargement des chunks
+Fix d'un bug empêchant de sélectionner une zone a partir des coordonnées x, y ou z plus grandes que 214748 blocs
+Fix d'un bug de mise a jour entre les commandes et l'interface
+Verification des zones de travail avant execution
+La gamerule maxCommandChainLength est maintenant mieux gérée
+Réactivation de certaines commandes
+Réactivation du random fill

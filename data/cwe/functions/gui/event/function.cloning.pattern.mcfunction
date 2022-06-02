@@ -7,4 +7,4 @@
 
 say function.cloning.pattern
 
-function cwe:gui/close
+function cwe:gui/close/run

@@ -7,4 +7,4 @@
 
 say function.replacing.random
 
-function cwe:gui/close
+function cwe:gui/close/run

@@ -7,4 +7,4 @@
 
 say function.cloning.transform
 
-function cwe:gui/close
+function cwe:gui/close/run

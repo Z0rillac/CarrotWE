@@ -7,4 +7,4 @@
 
 say function.replacing.replace
 
-function cwe:gui/close
+function cwe:gui/close/run
