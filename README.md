@@ -1,4 +1,4 @@
-# CarrotWE v1.0.0-beta.1
+# CarrotWE v1.0.0-beta.2
 
 Carrot World Edit is a powerful and efficient cross-platform world editing tool. It allows, in its first beta version, simple filling functions. Using its ultra advanced selection tool, you will be able to fill an area, clear it, and fill it randomly with selected blocks.
 CarrotWE is also a project. The project to create a tool that can be used to its full potential everywhere, in all circumstances. A visual and practical tool, simple but very powerful, and efficient that adapts to its environment. A tool that can be used for very complicated operations as well as for simple and fast functions.

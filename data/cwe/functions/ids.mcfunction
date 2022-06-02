@@ -9,6 +9,7 @@
 scoreboard players set #version.none cwe.ids 0
 scoreboard players set #version.v1.0.0-beta cwe.ids 1
 scoreboard players set #version.v1.0.0-beta.1 cwe.ids 2
+scoreboard players set #version.v1.0.0-beta.2 cwe.ids 3
 
 # functions
 scoreboard players set #function.filling.clear cwe.ids 1
