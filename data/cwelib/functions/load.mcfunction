@@ -29,5 +29,10 @@ kill @e[tag=cwelib.in]
 summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["cwelib","cwelib.out"]}
 summon minecraft:area_effect_cloud 29999999 1 15360000 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["cwelib","cwelib.in"]}
 
+fill 29999968 16 15360000 29999999 47 15360031 air
+setblock 29999999 1 15360000 air
+setblock 29999999 1 15360002 air
+
 fill 29999968 15 15360000 29999999 15 15360031 minecraft:bedrock
 setblock 29999999 0 15360000 bedrock
+setblock 29999999 0 15360002 bedrock

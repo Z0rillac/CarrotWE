@@ -111,5 +111,5 @@ function cwe:texts
 
 function cwe:versions/check
 
-setblock 29999999 0 15360002 bedrock
-setblock 29999999 1 15360002 oak_sign
+# component resolution
+#setblock 29999999 1 15360002 oak_sign

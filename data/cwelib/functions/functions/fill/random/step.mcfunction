@@ -8,4 +8,4 @@
 #scoreboard players add block cwelib.main 1
 
 function cwelib:pool/pick_random/run
-execute if score skip cwelib.temp matches 0 run clone 29999999 -1 15360000 29999999 -1 15360000 ~ ~ ~
+execute if score skip cwelib.temp matches 0 run clone 29999999 1 15360002 29999999 1 15360002 ~ ~ ~

@@ -81,7 +81,7 @@ team remove cwe.invalid
 team remove cwe.editing
 team remove cwe.origin
 
-execute as @e[tag=cwe.corner] run function cwe:area/kill_corner
+execute as @e[tag=cwe.area] run function cwe:area/remove
 kill @e[tag=cwe]
 
 data remove storage cwe:texts root
@@ -93,6 +93,14 @@ scoreboard objectives remove abcl.leaves
 scoreboard objectives remove abcl.scheduled
 scoreboard objectives remove abcl.math
 scoreboard objectives remove abcl.math2
+
+setblock 29999999 1 15360000 air
+setblock 29999999 1 15360002 air
+fill 29999968 16 15360000 29999999 47 15360031 air
+
+setblock 29999999 0 15360000 air
+setblock 29999999 0 15360002 air
+fill 29999968 15 15360000 29999999 15 15360031 air
 
 data remove storage abcl:storage temp
 
