@@ -21,5 +21,5 @@ scoreboard players set tps_scale dplib.time 1000
 scoreboard players set #tick dplib.time 0
 
 kill @e[tag=dplib.raycasting]
-summon minecraft:marker ~ ~ ~ {Tags: ["dplib","dplib.raycasting"]}
+summon minecraft:marker ~ ~ ~ {Tags: ["dplib","dplib.raycasting","global.ignore"]}
 #alias entity raycasting @e[tag=dplib.raycasting,limit=1]

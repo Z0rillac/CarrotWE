@@ -23,15 +23,15 @@ forceload add 29999984 15360000
 forceload add 29999984 15360016
 forceload add 29999968 15360000
 forceload add 29999968 15360016
-summon marker 29999984 -64 15360000 {Tags:["cwelib","cwelib.forceload","global.forceload"]}
-summon marker 29999984 -64 15360016 {Tags:["cwelib","cwelib.forceload","global.forceload"]}
-summon marker 29999968 -64 15360000 {Tags:["cwelib","cwelib.forceload","global.forceload"]}
-summon marker 29999968 -64 15360016 {Tags:["cwelib","cwelib.forceload","global.forceload"]}
+summon marker 29999984 -64 15360000 {Tags:["cwelib","cwelib.forceload","global.forceload","global.ignore"]}
+summon marker 29999984 -64 15360016 {Tags:["cwelib","cwelib.forceload","global.forceload","global.ignore"]}
+summon marker 29999968 -64 15360000 {Tags:["cwelib","cwelib.forceload","global.forceload","global.ignore"]}
+summon marker 29999968 -64 15360016 {Tags:["cwelib","cwelib.forceload","global.forceload","global.ignore"]}
 
 kill @e[tag=cwelib.out]
 kill @e[tag=cwelib.in]
-summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.out"]}
-summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.in"]}
+summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.out","global.ignore"]}
+summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.in","global.ignore"]}
 
 fill 29999968 16 15360000 29999999 47 15360031 air
 setblock 29999999 1 15360000 air

@@ -5,7 +5,7 @@
  # Created by Zorillac.
 ##
 
-summon minecraft:marker ~ ~ ~ {Tags: ["cwe","cwe.new_area"]}
+summon minecraft:marker ~ ~ ~ {Tags: ["cwe","cwe.new_area","global.ignore"]}
 
 scoreboard players operation @e[tag=cwe.new_area,limit=1] cwe.area.type = #type.out cwe.ids
 

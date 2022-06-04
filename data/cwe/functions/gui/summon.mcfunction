@@ -5,7 +5,7 @@
  # Created by Zorillac.
 ##
 
-summon chest_minecart ~ ~ ~ {Tags:["cwe","cwe.gui"],Silent:1b,Invulnerable:1b,NoGravity:1b,CustomName:'"CarrotWE v1.0.0-beta.2"'}
+summon chest_minecart ~ ~ ~ {Tags:["cwe","cwe.gui","global.ignore"],Silent:1b,Invulnerable:1b,NoGravity:1b,CustomName:'"CarrotWE v1.0.0-beta.2"'}
 
 function cwe:gui/get_gui
 function cwe:gui/refresh/run
