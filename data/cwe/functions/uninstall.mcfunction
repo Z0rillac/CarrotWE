@@ -67,6 +67,7 @@ scoreboard objectives remove working_in
 scoreboard objectives remove working_out
 scoreboard objectives remove working_pool
 scoreboard objectives remove fill
+scoreboard objectives remove cwe.fill
 scoreboard objectives remove clear
 scoreboard objectives remove random
 scoreboard objectives remove random_fill
@@ -94,13 +95,8 @@ scoreboard objectives remove abcl.scheduled
 scoreboard objectives remove abcl.math
 scoreboard objectives remove abcl.math2
 
-setblock 29999999 1 15360000 air
-setblock 29999999 1 15360002 air
-fill 29999968 16 15360000 29999999 47 15360031 air
-
-setblock 29999999 0 15360000 air
-setblock 29999999 0 15360002 air
-fill 29999968 15 15360000 29999999 15 15360031 air
+setblock 29999999 4 15360000 air
+setblock 29999999 3 15360000 air
 
 data remove storage abcl:storage temp
 

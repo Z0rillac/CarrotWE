@@ -42,4 +42,3 @@ scoreboard players operation outSizeZ cwelib.areas += 1 dplib.const
 scoreboard players operation outSize cwelib.areas = outSizeX cwelib.areas
 scoreboard players operation outSize cwelib.areas *= outSizeY cwelib.areas
 scoreboard players operation outSize cwelib.areas *= outSizeZ cwelib.areas
-execute if score outSize cwelib.areas matches ..-1 run scoreboard players operation outSize cwelib.areas *= -1 dplib.const

@@ -34,6 +34,7 @@ scoreboard players set @s working_in 0
 scoreboard players set @s working_out 0
 scoreboard players set @s working_pool 0
 scoreboard players set @s fill 0
+scoreboard players set @s cwe.fill 0
 scoreboard players set @s clear 0
 scoreboard players set @s random 0
 scoreboard players set @s random_fill 0

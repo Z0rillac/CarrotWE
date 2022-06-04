@@ -28,3 +28,5 @@ execute if score @s working matches 2.. run function cwe:trigger/functions/worki
 execute if score @s working_in matches 2.. run function cwe:trigger/functions/working_in
 execute if score @s working_out matches 2.. run function cwe:trigger/functions/working_out
 execute if score @s working_pool matches 2.. run function cwe:trigger/functions/working_pool
+
+execute if score @s cwe.fill matches 1.. run function cwe:trigger/functions/fill

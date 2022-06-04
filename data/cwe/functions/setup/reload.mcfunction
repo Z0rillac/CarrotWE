@@ -70,7 +70,7 @@ team modify cwe.invalid collisionRule never
 team modify cwe.editing collisionRule never
 team modify cwe.origin collisionRule never
 
-#Demo
+#triggers
 scoreboard objectives add wand trigger
 scoreboard objectives add select trigger
 scoreboard objectives add deselect trigger
@@ -83,6 +83,7 @@ scoreboard objectives add working_in trigger
 scoreboard objectives add working_out trigger
 scoreboard objectives add working_pool trigger
 scoreboard objectives add fill trigger
+scoreboard objectives add cwe.fill dummy
 scoreboard objectives add clear trigger
 scoreboard objectives add random trigger
 scoreboard objectives add random_fill trigger
@@ -110,6 +111,10 @@ data merge storage cwe:texts {root:{}}
 function cwe:texts
 
 function cwe:versions/check
+
+#fill input
+setblock 29999999 4 15360000 air
+setblock 29999999 3 15360000 bedrock
 
 # component resolution
 #setblock 29999999 1 15360002 oak_sign
