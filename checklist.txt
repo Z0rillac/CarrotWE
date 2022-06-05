@@ -1,4 +1,4 @@
-(133/150)
+(134/151)
 
 - [ ] installation
   - [x] message
@@ -23,6 +23,7 @@
     - [x] teams
     - [x] forceloaded chuncks
     - [x] markers
+    - [x] maxCommandChainLength
   - [x] unistalling
     - [x] scores
     - [x] storages
