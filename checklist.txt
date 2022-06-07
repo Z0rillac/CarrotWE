@@ -1,4 +1,4 @@
-(134/151)
+(141/158)
 
 - [ ] installation
   - [x] message
@@ -47,9 +47,11 @@
       - [x] functions
         - [x] shortcuts.clear
         - [x] shortcuts.fill
+        - [x] shortcuts.clone
         - [x] filling.clear
         - [x] filling.fill
         - [x] filling.random
+        - [x] cloning.clone
       - [ ] areas
         - [x] new pool
         - [x] new in
@@ -61,13 +63,13 @@
         - [ ] gui to trigger deselection sync
       - [x] disabled buttons
         - [x] tab.replacing
-        - [x] tab.cloning
         - [x] tab.geometry
         - [x] tab.brushes
         - [x] tab.settings
         - [x] shortcuts.replace
-        - [x] shortcuts.clone
         - [x] areas.multi-region
+        - [x] cloning.transform
+        - [x] cloning.pattern
     - [x] looking up kill gui
   - [x] area editing
     - [x] 1 axis
@@ -151,6 +153,11 @@
     - [x] execution message
     - [x] warn bbb
     - [x] working areas
+  - [x] simple clone
+    - [x] execution message
+    - [x] working areas
+    - [x] binary pattern
+    - [x] big
 
 - [x] pool
   - [x] init
