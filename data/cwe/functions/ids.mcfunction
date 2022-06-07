@@ -15,6 +15,7 @@ scoreboard players set #version.v1.0.0-beta.2 cwe.ids 3
 scoreboard players set #function.filling.clear cwe.ids 1
 scoreboard players set #function.filling.fill cwe.ids 2
 scoreboard players set #function.filling.random cwe.ids 3
+scoreboard players set #function.cloning.simple cwe.ids 4
 
 # teams
 scoreboard players set #team.none cwe.ids 0

@@ -42,4 +42,4 @@ scoreboard players operation inSizeZ cwelib.areas += 1 dplib.const
 scoreboard players operation inSize cwelib.areas = inSizeX cwelib.areas
 scoreboard players operation inSize cwelib.areas *= inSizeY cwelib.areas
 scoreboard players operation inSize cwelib.areas *= inSizeZ cwelib.areas
-execute if score inSize cwelib.areas matches ..-1 run scoreboard players operation inSize cwelib.areas *= -1 dplib.const
+#execute if score inSize cwelib.areas matches ..-1 run scoreboard players operation inSize cwelib.areas *= -1 dplib.const

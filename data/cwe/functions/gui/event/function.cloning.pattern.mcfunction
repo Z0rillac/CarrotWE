@@ -5,6 +5,7 @@
  # Created by Zorillac.
 ##
 
-say function.cloning.pattern
+# disabled
+#say function.cloning.pattern
 
-function cwe:gui/close/run
+function cwe:gui/refresh/run

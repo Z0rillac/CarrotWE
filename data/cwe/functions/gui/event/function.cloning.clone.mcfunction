@@ -5,6 +5,6 @@
  # Created by Zorillac.
 ##
 
-say function.cloning.clone
+execute as @a[tag=cwe.guiuser,limit=1] run scoreboard players operation @s cwe.scheduled = #function.cloning.simple cwe.ids
 
 function cwe:gui/close/run

@@ -7,6 +7,9 @@
 
 #alias entity out @e[tag=cwelib.out,limit=1]
 #alias entity in @e[tag=cwelib.in,limit=1]
+#alias entity x @e[tag=cwelib.x,limit=1]
+#alias entity y @e[tag=cwelib.y,limit=1]
+#alias entity z @e[tag=cwelib.z,limit=1]
 
 
 #alias vector blockinput1 29999999 1 15360000
