@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lime_stained_glass"
+      },
+      "title": {"text":"First selection","color":"green"},
+      "description": {"text":"The wand is the main tool of CarrotWE. It allows you to create selections, edit them, and run functions on them. Let's create our first selection. Hold the wand and open the interface. Click on \"new selection\" (lime stained glass).","color":"white"},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "cwe:tutorial/step_1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

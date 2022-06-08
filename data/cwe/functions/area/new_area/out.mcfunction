@@ -5,6 +5,8 @@
  # Created by Zorillac.
 ##
 
+execute if score @s cwe.tutorial = #tutorial.step_1 cwe.ids run function cwe:tutorial/step_2
+
 summon minecraft:marker ~ ~ ~ {Tags: ["cwe","cwe.new_area","global.ignore"]}
 
 scoreboard players operation @e[tag=cwe.new_area,limit=1] cwe.area.type = #type.out cwe.ids

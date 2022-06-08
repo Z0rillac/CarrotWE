@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:orange_concrete"
+      },
+      "title": {"text":"Fill your selection","color":"green"},
+      "description": {"text":"Nice. Now that your selection is ready, you can execute functions on it. The most classical of them: filling. Execute this function by opening the interface and clicking on the orange concrete block, available in the shortcut tab and the filling tab.","color":"white"},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "cwe:tutorial/step_3",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+ }

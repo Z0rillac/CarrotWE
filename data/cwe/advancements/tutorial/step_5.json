@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:glass"
+      },
+      "title": {"text":"Deselect","color":"green"},
+      "description": {"text":"To finish, simply deselect. You can do this by clicking in the same place you clicked to create a selection.","color":"white"},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "cwe:tutorial/step_4",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+ }

@@ -52,6 +52,8 @@ scoreboard objectives add cwe.gui.y dummy
 scoreboard objectives add cwe.gui.z dummy
 scoreboard objectives add cwe.gui.id dummy
 scoreboard objectives add cwe.ids dummy
+scoreboard objectives add cwe.tutorial dummy
+scoreboard objectives add cwe.untoast dummy
 
 team add cwe.none "cwe.none"
 team add cwe.in "cwe.in"
@@ -88,6 +90,7 @@ scoreboard objectives add clear trigger
 scoreboard objectives add random trigger
 scoreboard objectives add random_fill trigger
 scoreboard objectives add block_input trigger
+scoreboard objectives add skip_tutorial trigger
 
 #cfg
 team modify cwe.none color white
@@ -113,8 +116,7 @@ function cwe:texts
 function cwe:versions/check
 
 #fill input
-setblock 29999999 4 15360000 air
-setblock 29999999 3 15360000 bedrock
+execute positioned 29999999 4 15360000 run function cwelib:cache/block_slot
 
 # component resolution
 #setblock 29999999 1 15360002 oak_sign

@@ -21,6 +21,7 @@ execute if score @s clear matches 1.. run function cwe:functions/clear/run
 execute if score @s random matches 1.. run function cwe:functions/random_fill/run
 execute if score @s random_fill matches 1.. run function cwe:functions/random_fill/run
 execute if score @s block_input matches 1.. run function cwe:trigger/functions/block_input
+execute if score @s skip_tutorial matches 1.. run function cwe:tutorial/hide
 
 execute if score @s deselect matches 2.. run function cwe:trigger/functions/deselect
 execute if score @s desel matches 2.. run function cwe:trigger/functions/desel

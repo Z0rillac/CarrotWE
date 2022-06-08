@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick"
+      },
+      "title": {"text":"Let's go !","color":"green"},
+      "description": ["",{"text":"Let's just start by getting the wand. Do ","color":"white"},{"text":"/trigger wand","underlined":true,"color":"white"}],
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "cwe:tutorial/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -22,6 +22,7 @@
     - [x] storages
     - [x] teams
     - [x] forceloaded chuncks
+    - [x] cache
     - [x] markers
     - [x] maxCommandChainLength
   - [x] unistalling
@@ -30,6 +31,7 @@
     - [x] teams
     - [x] entities
     - [x] forceloaded chuncks
+    - [x] cache
     - [x] disabling datapack
 
 - [ ] wand
@@ -163,3 +165,8 @@
   - [x] init
   - [x] pick random
   - [x] quit
+
+- [x] tutorial
+  - [x] advancements
+  - [x] toast
+  - [x] steps

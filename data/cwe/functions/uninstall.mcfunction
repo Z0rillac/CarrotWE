@@ -55,6 +55,8 @@ scoreboard objectives remove cwe.gui.y
 scoreboard objectives remove cwe.gui.z
 scoreboard objectives remove cwe.gui.id
 scoreboard objectives remove cwe.ids
+scoreboard objectives remove cwe.tutorial
+scoreboard objectives remove cwe.untoast
 scoreboard objectives remove wand
 scoreboard objectives remove select
 scoreboard objectives remove deselect
@@ -72,6 +74,7 @@ scoreboard objectives remove clear
 scoreboard objectives remove random
 scoreboard objectives remove random_fill
 scoreboard objectives remove block_input
+scoreboard objectives remove skip_tutorial
 
 team remove cwe.none
 team remove cwe.in

@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot"
+    },
+    "title": ["",{"text":"Press "},{"keybind":"key.advancements"},{"text":" and go to the CarrotWE section to see a rapid tutorial."}],
+    "description": "",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pink_concrete_powder"
+      },
+      "title": {"text":"Manage multiple selections","color":"green"},
+      "description": {"text":"Some functions like random fill require several selections: one for the filling blocks (block pool) and one for the area to fill. You can create these two selections in the same place in the interface as before. Execute the random fill function.","color":"white"},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "cwe:tutorial/step_5",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+ }

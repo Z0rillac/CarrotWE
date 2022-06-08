@@ -69,6 +69,16 @@ scoreboard players set #gui.working.pool_out_in cwe.ids 07
 scoreboard players set #gui.function.home cwe.ids 00
 scoreboard players set #gui.function. cwe.ids 00
 
+# tutorial
+scoreboard players set #tutorial.not_done cwe.ids 0
+scoreboard players set #tutorial.step_1 cwe.ids 1
+scoreboard players set #tutorial.step_2 cwe.ids 2
+scoreboard players set #tutorial.step_3 cwe.ids 3
+scoreboard players set #tutorial.step_4 cwe.ids 4
+scoreboard players set #tutorial.step_5 cwe.ids 5
+scoreboard players set #tutorial.step_6 cwe.ids 6
+scoreboard players set #tutorial.done cwe.ids 7
+
 # other
 scoreboard players set #default_mccl cwe.ids 65536
 scoreboard players set #min_mccl cwe.ids 8388608

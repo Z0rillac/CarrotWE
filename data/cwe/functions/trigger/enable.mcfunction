@@ -21,6 +21,7 @@ scoreboard players enable @s clear
 scoreboard players enable @s random
 scoreboard players enable @s random_fill
 scoreboard players enable @s block_input
+scoreboard players enable @s skip_tutorial
 
 scoreboard players set @s wand 0
 scoreboard players set @s select 0
@@ -39,3 +40,4 @@ scoreboard players set @s clear 0
 scoreboard players set @s random 0
 scoreboard players set @s random_fill 0
 scoreboard players set @s block_input 0
+scoreboard players set @s skip_tutorial 0

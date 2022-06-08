@@ -11,3 +11,5 @@ scoreboard players set @s cwe.selected 0
 scoreboard players add @s cwe.raycast_mod 5
 
 scoreboard players set @s cwe.player.first_co 1
+
+function cwe:tutorial/reset

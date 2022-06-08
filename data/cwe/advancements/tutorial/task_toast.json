@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot"
+    },
+    "title": ["",{"text":"Task completed ! Press "},{"keybind":"key.advancements"},{"text":" to continue."}],
+    "description": "",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

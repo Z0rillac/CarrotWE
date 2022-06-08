@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lime_stained_glass"
+      },
+      "title": {"text":"Edit your selection","color":"green"},
+      "description": {"text":"Great! You can see that a highlighted area has appeared. You can change its position, shape and size by right clicking on one of the highlighted handles, dragging and confirming again with a click. Edit the selection.","color":"white"},
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "cwe:tutorial/step_2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+ }

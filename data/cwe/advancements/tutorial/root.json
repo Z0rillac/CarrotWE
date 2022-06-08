@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot"
+      },
+      "title": {"text":"CarrotWE","color":"green"},
+      "description": {"text":"Hello ! Welcome to the CarrotWE tutorial, here you will learn the basics of how a world edition datapack like this works.","color":"white"},
+      "background": "minecraft:textures/block/green_concrete.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
