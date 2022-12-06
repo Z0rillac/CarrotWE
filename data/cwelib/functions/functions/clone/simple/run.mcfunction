@@ -40,6 +40,8 @@ tp @e[tag=cwelib.x,limit=1] 29999999 1 15360000
 tp @e[tag=cwelib.y,limit=1] 29999999 1 15360000
 tp @e[tag=cwelib.z,limit=1] 29999999 1 15360000
 
+fill 29999968 16 15360000 29999999 47 15360031 air
+
 scoreboard players set x cwelib.main 0
 
 bossbar set cwelib:progress value 0

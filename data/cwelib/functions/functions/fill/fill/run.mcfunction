@@ -29,6 +29,8 @@ function cwelib:functions/fill/fill/load_x
 execute as @e[tag=cwelib.out,limit=1] at @s run function cwelib:functions/fill/fill/xyz
 tp @e[tag=cwelib.out,limit=1] 29999999 1 15360000
 
+fill 29999968 16 15360000 29999999 47 15360031 air
+
 scoreboard players set x cwelib.main 0
 
 bossbar set cwelib:progress value 0
