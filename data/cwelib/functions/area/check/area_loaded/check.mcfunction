@@ -35,3 +35,4 @@ execute if score area_loaded.in0 cwelib.checks matches 1 if score area_loaded.in
 execute if score area_loaded.out0 cwelib.checks matches 1 if score area_loaded.out1 cwelib.checks matches 1 run scoreboard players set area_loaded.out cwelib.checks 1 
 
 tp @s 29999999 0 15360000
+kill @s

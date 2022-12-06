@@ -33,16 +33,11 @@ kill @e[tag=cwelib.in]
 kill @e[tag=cwelib.x]
 kill @e[tag=cwelib.y]
 kill @e[tag=cwelib.z]
+kill @e[tag=cwelib.area_loaded]
 summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.out","global.ignore"]}
 summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.in","global.ignore"]}
 summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.x","global.ignore"]}
 summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.y","global.ignore"]}
 summon minecraft:marker 29999999 1 15360000 {Tags: ["cwelib","cwelib.z","global.ignore"]}
 
-fill 29999968 16 15360000 29999999 47 15360031 air
-setblock 29999999 1 15360000 air
-setblock 29999999 1 15360002 air
-
-fill 29999968 15 15360000 29999999 15 15360031 minecraft:bedrock
-setblock 29999999 0 15360000 bedrock
-setblock 29999999 0 15360002 bedrock
+function cwelib:cache/load

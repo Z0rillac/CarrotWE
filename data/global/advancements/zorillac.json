@@ -1,10 +1,10 @@
 {
     "display": {
-        "title": "Zorillac",
+        "title": "Z0rillac",
         "description": "",
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: 'Zorillac'}"
+            "nbt": "{SkullOwner: 'Z0rillac'}"
         },
         "show_toast": false,
         "announce_to_chat": false

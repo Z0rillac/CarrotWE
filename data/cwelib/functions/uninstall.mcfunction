@@ -17,13 +17,7 @@ data remove storage cwelib:pos set
 
 bossbar remove cwelib:progresss
 
-setblock 29999999 1 15360000 air
-setblock 29999999 1 15360002 air
-fill 29999968 16 15360000 29999999 47 15360031 air
-
-setblock 29999999 0 15360000 air
-setblock 29999999 0 15360002 air
-fill 29999968 15 15360000 29999999 15 15360031 air
+function cwelib:cache/uninstall
 
 execute as @e[tag=cwelib.forceload] at @s unless entity @e[tag=!cwelib.forceload,tag=global.forceload,dx=15,dy=319,dz=15] run forceload remove ~ ~
 kill @e[tag=cwelib.forceload]

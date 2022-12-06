@@ -7,7 +7,7 @@
 
 function cwelib:area/get_out
 function cwelib:functions/fill/fill/get_pattern
-function cwelib:functions/fill/fill/load_cache
+function cwelib:functions/fill/fill/buffer/load/run
 
 scoreboard players set xPartSize cwelib.temp 0
 scoreboard players set yPartSize cwelib.temp 0

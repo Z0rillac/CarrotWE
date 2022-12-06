@@ -5,6 +5,16 @@
  # Created by Zorillac.
 ##
 
+scoreboard objectives add _cwe.area.X0 dummy
+scoreboard objectives add _cwe.area.Y0 dummy
+scoreboard objectives add _cwe.area.Z0 dummy
+scoreboard objectives add _cwe.area.X1 dummy
+scoreboard objectives add _cwe.area.Y1 dummy
+scoreboard objectives add _cwe.area.Z1 dummy
+scoreboard objectives add _cwe.area.type dummy
+scoreboard objectives add _cwe.area.user dummy
+
+scoreboard objectives add cwe.ops dummy
 scoreboard objectives add cwe.temp dummy
 scoreboard objectives add cwe.config dummy
 scoreboard objectives add cwe.wand.click minecraft.used:minecraft.carrot_on_a_stick
@@ -116,7 +126,7 @@ function cwe:texts
 function cwe:versions/check
 
 #fill input
-execute positioned 29999999 4 15360000 run function cwelib:cache/block_slot
+execute positioned 29999969 4 15360001 run function cwelib:cache/block_slot
 
 # component resolution
-#setblock 29999999 1 15360002 oak_sign
+#setblock 29999996 1 15360001 oak_sign

@@ -5,4 +5,4 @@
  # Created by Zorillac.
 ##
 
-execute as @a at @s run function cwe:gui/as
+execute as @a[scores={cwe.ops=1}] at @s run function cwe:gui/as

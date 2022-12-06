@@ -5,9 +5,9 @@
  # Created by Zorillac.
 ##
 
-#data modify block 29999999 1 15360002 Text1 set value '{"nbt":"root.gui.shortcuts","storage":"cwe:texts","interpret":true}'
+#data modify block 29999996 1 15360001 Text1 set value '{"nbt":"root.gui.shortcuts","storage":"cwe:texts","interpret":true}'
 #item replace entity @s container.1 with green_stained_glass_pane{cwe.gui:"page.functions_list.shortcuts",cwe:1b}
-#data modify entity @s Items.[{Slot:1b}].tag.display.Name set from block 29999999 1 15360002 Text1
+#data modify entity @s Items.[{Slot:1b}].tag.display.Name set from block 29999996 1 15360001 Text1
 item replace entity @s container.1 with green_stained_glass_pane{display:{Name:'"§r§fShortcuts"'},cwe.gui:"page.functions_list.shortcuts",cwe:1b}
 item replace entity @s container.2 with green_stained_glass_pane{display:{Name:'"§r§fFilling"'},cwe.gui:"page.functions_list.filling",cwe:1b}
 #item replace entity @s container.3 with green_stained_glass_pane{display:{Name:'"§r§fReplacing"'},cwe.gui:"page.functions_list.replacing",cwe:1b}

@@ -4,7 +4,7 @@
         "item": "minecraft:map"
       },
       "title": {"text":"You're done!   ","color":"green"},
-      "description": {"text":"You have now mastered the basics to start creating with this tool! You can find help on the project page and in the different doccumentations. You can hide this tab by doing /trigger skip_tutorial","color":"white"},
+      "description": {"text":"You have now mastered the basics to start creating with this tool! You can find help on the project page and in the different documentations. You can hide this tab by doing /trigger skip_tutorial","color":"white"},
       "show_toast": false,
       "announce_to_chat": false,
       "hidden": false

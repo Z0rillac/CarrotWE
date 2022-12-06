@@ -8,6 +8,7 @@
 say §7Uninstalling CarrotWE v1.0.0-beta.2 ...
 
 scoreboard objectives remove cwe.main
+scoreboard objectives remove cwe.ops
 scoreboard objectives remove cwe.temp
 scoreboard objectives remove cwe.config
 scoreboard objectives remove cwe.wand.click
@@ -98,8 +99,7 @@ scoreboard objectives remove abcl.scheduled
 scoreboard objectives remove abcl.math
 scoreboard objectives remove abcl.math2
 
-setblock 29999999 4 15360000 air
-setblock 29999999 3 15360000 air
+execute positioned 29999969 4 15360001 run function cwelib:cache/delete_block_slot
 
 data remove storage abcl:storage temp
 

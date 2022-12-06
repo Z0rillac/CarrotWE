@@ -5,6 +5,10 @@
  # Created by Zorillac.
 ##
 
+# areas
+scoreboard players set _#area.type.free_cuboid cwe.ids 0
+scoreboard players set _#area.type.locked_cuboid cwe.ids 0
+
 # verions
 scoreboard players set #version.none cwe.ids 0
 scoreboard players set #version.v1.0.0-beta cwe.ids 1
