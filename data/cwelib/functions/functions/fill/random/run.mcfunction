@@ -11,6 +11,7 @@ function cwelib:pool/init
 scoreboard players set x cwelib.main 0
 scoreboard players set y cwelib.main 0
 scoreboard players set z cwelib.main 0
+scoreboard players set affectedBlocks cwelib.main 0
 scoreboard players set blocks cwelib.main 0
 
 scoreboard players operation yz cwelib.temp = outSizeY cwelib.areas
@@ -27,6 +28,7 @@ execute as @e[tag=cwelib.out,limit=1] at @s run function cwelib:functions/fill/r
 tp @e[tag=cwelib.out,limit=1] 29999999 1 15360000
 
 scoreboard players set x cwelib.main 0
+scoreboard players operation affectedBlocks cwelib.main = blocks cwelib.main
 
 function cwelib:pool/quit
 

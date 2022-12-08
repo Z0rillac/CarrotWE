@@ -15,6 +15,7 @@ scoreboard players set zPartSize cwelib.temp 0
 scoreboard players set x cwelib.main 0
 scoreboard players set y cwelib.main 0
 scoreboard players set z cwelib.main 0
+scoreboard players set affectedBlocks cwelib.main 0
 scoreboard players set blocks cwelib.main 0
 
 execute store result bossbar cwelib:progress max run scoreboard players get outSize cwelib.areas
