@@ -3,7 +3,7 @@
     "value": {
       "type": "minecraft:score",
       "target": "this",
-      "score": "cwe.area.sid.part"
+      "score": "cwe.sid.limbs"
     },
     "range": {
       "min": {

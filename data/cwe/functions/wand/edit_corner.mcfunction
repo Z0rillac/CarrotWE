@@ -5,10 +5,10 @@
  # Created by Zorillac.
 ##
 
-scoreboard players operation @a[tag=cwe.user,limit=1] cwe.selected = @s cwe.area.sid.part
+scoreboard players operation @a[tag=cwe.user,limit=1] cwe.selected = @s cwe.sid.limbs
 
 scoreboard players operation search cwe.sid = @a[tag=cwe.user,limit=1] cwe.selected
-execute as @e[tag=cwe.area,predicate=cwe:linked_from_part] run function cwe:wand/save_coordinates
+execute as @e[tag=cwe.area,predicate=cwe:linked_to_head] run function cwe:wand/save_coordinates
 
 execute if entity @s[tag=cwe.corner.0] as @a[tag=cwe.user,limit=1] run function cwe:wand/selected_corner/c0
 execute if entity @s[tag=cwe.corner.1] as @a[tag=cwe.user,limit=1] run function cwe:wand/selected_corner/c1

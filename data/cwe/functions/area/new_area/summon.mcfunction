@@ -52,11 +52,11 @@ summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Sile
 summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Silent:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b}],Team:"cwe.none",Glowing:1b,Tags:["cwe","cwe.type.none","cwe.corner.24","cwe.new_corner","global.ignore","cwe.corner","cwe.area_part"]}
 summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Silent:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b}],Team:"cwe.none",Glowing:1b,Tags:["cwe","cwe.type.none","cwe.corner.25","cwe.new_corner","global.ignore","cwe.corner","cwe.area_part"]}
 
-execute as @e[tag=cwe.new_corner] run scoreboard players operation @s cwe.area.sid.part = global cwe.sid
+execute as @e[tag=cwe.new_corner] run scoreboard players operation @s cwe.sid.limbs = global cwe.sid
 execute as @e[tag=cwe.new_corner] run scoreboard players set @s cwe.handle.hover_state 0
 tag @e[tag=cwe.new_corner] remove cwe.new_corner
 
-scoreboard players operation @s cwe.area.sid = global cwe.sid
+scoreboard players operation @s cwe.sid.head = global cwe.sid
 
 function cwe:area/refresh/pos
 function cwe:area/refresh/type

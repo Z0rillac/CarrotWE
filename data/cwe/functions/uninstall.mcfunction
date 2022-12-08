@@ -17,7 +17,8 @@ scoreboard objectives remove cwe.player.sid
 scoreboard objectives remove cwe.player.first_co
 scoreboard objectives remove cwe.scheduled
 scoreboard objectives remove cwe.sid
-scoreboard objectives remove cwe.area.sid.part
+scoreboard objectives remove cwe.sid.limbs
+scoreboard objectives remove cwe.sid.head
 scoreboard objectives remove cwe.area.X0
 scoreboard objectives remove cwe.area.Y0
 scoreboard objectives remove cwe.area.Z0
@@ -28,7 +29,6 @@ scoreboard objectives remove cwe.handle.hover
 scoreboard objectives remove cwe.handle.hover_state
 scoreboard objectives remove cwe.handle.team
 scoreboard objectives remove cwe.area.type
-scoreboard objectives remove cwe.area.sid
 scoreboard objectives remove cwe.selected
 scoreboard objectives remove cwe.selected.X
 scoreboard objectives remove cwe.selected.Y

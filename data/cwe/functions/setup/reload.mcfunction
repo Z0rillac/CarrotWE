@@ -23,7 +23,8 @@ scoreboard objectives add cwe.player.sid dummy
 scoreboard objectives add cwe.player.first_co dummy
 scoreboard objectives add cwe.scheduled dummy
 scoreboard objectives add cwe.sid dummy
-scoreboard objectives add cwe.area.sid.part dummy
+scoreboard objectives add cwe.sid.limbs dummy
+scoreboard objectives add cwe.sid.head dummy
 scoreboard objectives add cwe.area.X0 dummy
 scoreboard objectives add cwe.area.Y0 dummy
 scoreboard objectives add cwe.area.Z0 dummy
@@ -34,7 +35,6 @@ scoreboard objectives add cwe.handle.hover dummy
 scoreboard objectives add cwe.handle.hover_state dummy
 scoreboard objectives add cwe.handle.team dummy
 scoreboard objectives add cwe.area.type dummy
-scoreboard objectives add cwe.area.sid dummy
 scoreboard objectives add cwe.selected dummy
 scoreboard objectives add cwe.selected.X dummy
 scoreboard objectives add cwe.selected.Y dummy
