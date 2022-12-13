@@ -1,0 +1,1 @@
+function cwe:wand/event/confirm_area/run

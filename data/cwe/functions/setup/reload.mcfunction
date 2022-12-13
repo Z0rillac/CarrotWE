@@ -19,6 +19,7 @@ scoreboard objectives add cwe.temp dummy
 scoreboard objectives add cwe.config dummy
 scoreboard objectives add cwe.wand.click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add cwe.wand.state dummy
+scoreboard objectives add cwe.wand.editing dummy
 scoreboard objectives add cwe.player.sid dummy
 scoreboard objectives add cwe.player.first_co dummy
 scoreboard objectives add cwe.scheduled dummy
@@ -35,7 +36,7 @@ scoreboard objectives add cwe.handle.hover dummy
 scoreboard objectives add cwe.handle.hover_state dummy
 scoreboard objectives add cwe.handle.team dummy
 scoreboard objectives add cwe.area.type dummy
-scoreboard objectives add cwe.selected dummy
+scoreboard objectives add cwe.wand.selected dummy
 scoreboard objectives add cwe.selected.X dummy
 scoreboard objectives add cwe.selected.Y dummy
 scoreboard objectives add cwe.selected.Z dummy

@@ -5,8 +5,12 @@
  # Created by Zorillac.
 ##
 
-scoreboard players set * cwe.handle.hover 0
+tag @s add cwe.user
+scoreboard players set @e[tag=cwe.handle.highlighted] cwe.handle.hover 0
 
-execute as @a[scores={cwe.wand.state=1,cwe.ops=1},nbt=!{SelectedItem:{tag:{cwe.wand:true}}}] at @s run function cwe:wand/stop_holding_wand
-execute as @a[scores={cwe.ops=1},nbt={SelectedItem:{tag:{cwe.wand:true}}}] at @s run function cwe:wand/holds_wand
-execute as @e[tag=cwe.corner,scores={cwe.handle.hover=0,cwe.handle.hover_state=1}] run function cwe:wand/handle_deselected
+execute unless predicate cwe:wand/mainhand run function cwe:wand/if/not_holding_wand
+execute if predicate cwe:wand/mainhand run function cwe:wand/if/holding_wand
+scoreboard players set @s cwe.wand.click 0
+
+execute as @e[tag=cwe.corner,scores={cwe.handle.hover_state=1,cwe.handle.hover=0}] run function cwe:wand/event/unhighlight_handle/run
+tag @s remove cwe.user

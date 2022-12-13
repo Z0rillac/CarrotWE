@@ -1,0 +1,1 @@
+function cwe:wand/event/raycast_mod/run

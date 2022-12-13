@@ -13,6 +13,7 @@ scoreboard objectives remove cwe.temp
 scoreboard objectives remove cwe.config
 scoreboard objectives remove cwe.wand.click
 scoreboard objectives remove cwe.wand.state
+scoreboard objectives remove cwe.wand.editing
 scoreboard objectives remove cwe.player.sid
 scoreboard objectives remove cwe.player.first_co
 scoreboard objectives remove cwe.scheduled

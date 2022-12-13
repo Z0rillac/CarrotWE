@@ -1,0 +1,1 @@
+function cwe:wand/if/holding_wand/not_editing/looking_down

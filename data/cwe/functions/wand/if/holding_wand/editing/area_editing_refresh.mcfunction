@@ -1,0 +1,1 @@
+function cwe:wand/event/area_editing_refresh/run

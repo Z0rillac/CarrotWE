@@ -1,0 +1,1 @@
+function cwe:gui/detect_roty

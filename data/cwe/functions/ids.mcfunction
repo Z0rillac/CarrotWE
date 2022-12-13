@@ -45,6 +45,10 @@ scoreboard players set #type.in cwe.ids 1
 scoreboard players set #type.out cwe.ids 2
 scoreboard players set #type.pool cwe.ids 3
 
+# wand
+scoreboard players set #cwe.wand.not_holding cwe.ids 0
+scoreboard players set #cwe.wand.holding cwe.ids 1
+
 # gui
 scoreboard players set #gui.page.functions_list.shortcuts cwe.ids 01
 scoreboard players set #gui.page.functions_list.filling cwe.ids 02
