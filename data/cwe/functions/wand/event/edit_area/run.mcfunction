@@ -2,7 +2,7 @@ scoreboard players set @s cwe.wand.editing 1
 
 #save coordinates
 scoreboard players operation @s cwe.wand.selected = @e[tag=cwe.area.selected_handle,limit=1] cwe.sid.limbs
-scoreboard players operation search cwe.sid = @s cwe.selected
+scoreboard players operation search cwe.sid = @s cwe.wand.selected
 execute as @e[tag=cwe.area,predicate=cwe:linked_to_head] run function cwe:wand/event/edit_area/save_coordinates
 scoreboard players operation @s cwe.selected.previous.X0 = cwe.area.X0 cwe.temp
 scoreboard players operation @s cwe.selected.previous.Y0 = cwe.area.Y0 cwe.temp
