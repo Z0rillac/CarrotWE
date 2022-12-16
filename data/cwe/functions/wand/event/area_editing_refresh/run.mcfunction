@@ -17,5 +17,5 @@ scoreboard players operation size cwe.temp = sizeX cwe.temp
 scoreboard players operation size cwe.temp *= sizeY cwe.temp
 scoreboard players operation size cwe.temp *= sizeZ cwe.temp
 
-data modify storage abcl:storage temp.message.Message set from storage cwe:texts root.editing_corner
-function cwe:texts/title_p2
+function cwe:lang/text/wand.editing_corner
+function cwe:texts/actionbar_p2

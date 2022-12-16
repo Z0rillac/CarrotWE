@@ -17,4 +17,7 @@ execute if score gui.working cwe.temp = #gui.working.pool_out_in cwe.ids run fun
 #item replace entity @s container.24 with glass{display:{Name:'"§r§fToggle on multi-region"'},cwe.gui:"uni-region.toggle_on_multi-region",cwe:1b}
 
 # disabled
-item replace entity @s container.24 with black_stained_glass{display:{Name:'"§r§fToggle on multi-region (WIP)"'},cwe.gui:"uni-region.toggle_on_multi-region",cwe:1b}
+function cwe:lang/text/gui.uni-region.toggle_on_multi-region
+function cwe:texts/parse
+item replace entity @s container.24 with black_stained_glass{display:{Name:'""'},cwe.gui:"uni-region.toggle_on_multi-region",cwe:1b}
+data modify entity @s Items[{Slot:24b}].tag.display.Name set from storage cwe:texts root.parsed

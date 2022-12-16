@@ -122,12 +122,12 @@ function cwe:config
 function cwe:ids
 
 data merge storage cwe:texts {root:{}}
-function cwe:texts
+function cwe:lang/load
 
 function cwe:versions/check
 
 #fill input
 execute positioned 29999969 4 15360001 run function cwelib:cache/block_slot
 
-# component resolution
-#setblock 29999996 1 15360001 oak_sign
+# parsing
+setblock 29999969 7 15360001 minecraft:oak_sign{Text2:'{"text":"^^^^^^^^^^^^^^","color":"#FF6264"}',Text3:'{"text":"Parser | Do not","color":"#FF6264"}',Text4:'{"text":"touch this block","color":"#FF6264"}'}

@@ -16,29 +16,29 @@
 
 
 
-root.modification_canceled: "&cModification annulée"
-root.editing_corner: "&6Modification de &a{cwe.selected} &6de &a{cwe.selected.X0} {cwe.selected.Y0} {cwe.selected.Z0} &6à &a{cwe.selected.X1} {cwe.selected.Y1} {cwe.selected.Z1} &6Taille &a{size, cwe.temp}"
-#root.holds_wand: "&6CarrotWE v1.0.0-beta.2 | Entrée: &a{cwe.working.in} &6Sortie: &a{cwe.working.out} &6Groupe de block: &a{cwe.working.pool}"
-root.holds_wand: "&6CarrotWE v1.0.0-beta.2 | &aRegardez en bas &6pour ouvrir l'interface &aAppuyez sur {key.swapOffhand} &6pour changer le mode de traçage."
-root.raycast_mod.block: "&6Mode de traçage: &aPremier bloc"
-root.raycast_mod.distance: "&6Mode de traçage: &a{cwe.raycast_mod}
+root.modification_canceled.fr-fr "&cModification annulée."
+root.editing_corner.fr-fr "&6Modifier &a{cwe.selected} &6de &a{cwe.selected.X0} {cwe.selected.Y0} {cwe.selected.Z0} &6à &a{cwe.selected.X1} {cwe.selected.Y1} {cwe.selected.Z1} &6Taille &a{size, cwe.temp}"
+#root.holds_wand.fr-fr "&6CarrotWE v1.0.0-beta.2 | Entrée: &a{cwe.working.in} &6Sortie: &a{cwe.working.out} &6Groupe de block: &a{cwe.working.pool}"
+root.holds_wand.fr-fr "&6CarrotWE v1.0.0-beta.2 | &aRegardez en bas &6pour ouvrir l'interface &aPressez {key.swapOffhand} &6pour changer le mode de traçage."
+root.raycast_mod.block.fr-fr "&6Mode de traçage: &aPremier bloc"
+root.raycast_mod.distance.fr-fr "&6Mode de traçage: &a{cwe.raycast_mod}
 
-root.gui.tabs.shortcuts: "Raccourcis"
-root.gui.tabs.filling: "Remplissage"
-root.gui.tabs.replacing: "Remplacement"
-root.gui.tabs.cloning: "Clonage"
-root.gui.tabs.geometry: "Géometrie"
-root.gui.tabs.brushes: "Pinceaux"
-root.gui.tabs.settings: "Paramètres"
-root.gui.function.filling.fill "Remplir"
-root.gui.function.filling.clear "Nettoyer"
-root.gui.function.filling.random "Remplissage aléatoire"
-root.gui.function.replacing.replace "Remplacer"
-root.gui.function.replacing.random "Remplacement aléatoire"
-root.gui.function.replacing.multi-replace "Multi-replacement"
-root.gui.function.cloning.clone "Clonage"
-root.gui.function.cloning.transform "Transformer"
-root.gui.function.cloning.pattern "Motif"
+root.gui.tabs.shortcuts.fr-fr = "Raccourcis"
+root.gui.tabs.filling.fr-fr "Remplissage"
+root.gui.tabs.replacing.fr-fr "Remplacement"
+root.gui.tabs.cloning.fr-fr "Clonage"
+root.gui.tabs.geometry.fr-fr "Géometrie"
+root.gui.tabs.brushes.fr-fr "Pinceaux"
+root.gui.tabs.settings.fr-fr "Paramètres"
+root.gui.function.filling.fill.fr-fr "Remplir"
+root.gui.function.filling.clear.fr-fr "Nettoyer"
+root.gui.function.filling.random.fr-fr "Remplissage aléatoire"
+root.gui.function.replacing.replace.fr-fr "Remplacer"
+root.gui.function.replacing.random.fr-fr "Remplacement aléatoire"
+root.gui.function.replacing.multi-replace.fr-fr "Multi-replacement"
+root.gui.function.cloning.clone.fr-fr "Clonage"
+root.gui.function.cloning.transform.fr-fr "Transformer"
+root.gui.function.cloning.pattern.fr-fr "Motif"
 
 #root.gui.function.geometry.
 #root.gui.function.brushes.

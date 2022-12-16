@@ -8,8 +8,10 @@
 tag @s add cwe.user
 
 execute unless score @s cwe.working.out matches 0 run function cwe:functions/clear/clear
-execute if score done cwelib.temp matches 1 run tellraw @s ["",{"text":"Removed ","color":"gold"},{"score":{"name":"affectedBlocks","objective":"cwelib.main"},"color":"gold"},{"text":" blocks.","color":"gold"}]
+execute if score done cwelib.temp matches 1 run function cwe:lang/text/function.clear.done
+execute if score done cwelib.temp matches 1 run function cwe:texts/tellraw
 scoreboard players set done cwelib.temp 0
-execute if score @s cwe.working.out matches 0 run tellraw @s {"text":"Unable to clear: no destination selected.","color":"red"}
+execute if score @s cwe.working.out matches 0 run function cwe:lang/text/function.clear.error.working_out
+execute if score @s cwe.working.out matches 0 run function cwe:texts/tellraw
 
 tag @s remove cwe.user

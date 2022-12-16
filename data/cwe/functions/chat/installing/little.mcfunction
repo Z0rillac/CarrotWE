@@ -1,1 +1,2 @@
-tellraw @s ["",{"text":"Thank you for installing CarrotWE !\n This version is not official, it may ... ","color":"gold"},{"text":"[ expand \u25bc ]","color":"green","clickEvent":{"action":"run_command","value":"/function cwe:chat/installing/big"}}]
+function cwe:lang/text/chat.installing.little
+function cwe:texts/tellraw

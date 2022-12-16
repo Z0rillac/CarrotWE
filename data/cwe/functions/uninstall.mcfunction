@@ -102,6 +102,9 @@ scoreboard objectives remove abcl.math2
 
 execute positioned 29999969 4 15360001 run function cwelib:cache/delete_block_slot
 
+# parsing
+setblock 29999969 7 15360001 air
+
 data remove storage abcl:storage temp
 
 function cwelib:uninstall

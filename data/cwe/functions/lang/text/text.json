@@ -1,0 +1,68 @@
+{
+    "lang": [
+        "en-us",
+        "fr-fr"
+    ],
+    "text": [
+        "function.clear.progress",
+        "function.clear.done",
+        "function.clear.error.working_out",
+        "function.fill.progress",
+        "function.fill.done",
+        "function.fill.error.working_out",
+        "function.random_fill.progress",
+        "function.random_fill.warn",
+        "function.random_fill.done",
+        "function.random_fill.error.working_out",
+        "function.random_fill.error.working_pool",
+        "function.simple_clone.progress",
+        "function.simple_clone.done",
+        "function.simple_clone.error.working_out",
+        "function.simple_clone.error.working_in",
+
+        "wand.editing_corner",
+        "wand.holds_wand",
+        "wand.modification_canceled",
+        "wand.raycast_mod.block",
+        "wand.raycast_mod.distance",
+
+        "chat.language_selection",
+        "chat.installing.big",
+        "chat.installing.little",
+        "chat.op",
+        "chat.op_confirmation",
+
+        "gui.page.functions_list.shortcuts",
+        "gui.page.functions_list.filling",
+        "gui.page.functions_list.replacing",
+        "gui.page.functions_list.cloning",
+        "gui.page.functions_list.geometry",
+        "gui.page.functions_list.brushes",
+        "gui.page.functions_list.settings",
+        "gui.page.functions_list.shortcuts",
+        "gui.page.functions_list.filling",
+        "gui.page.functions_list.replacing",
+        "gui.page.functions_list.cloning",
+        "gui.page.functions_list.geometry",
+        "gui.page.functions_list.brushes",
+        "gui.page.functions_list.settings",
+
+        "gui.function.cloning.clone",
+        "gui.function.cloning.transform",
+        "gui.function.cloning.pattern",
+        "gui.function.filling.clear",
+        "gui.function.filling.fill",
+        "gui.function.filling.random",
+        "gui.function.replacing.replace",
+        "gui.function.replacing.random",
+        "gui.function.replacing.multi-replace",
+        
+        "gui.uni-region.deselect.in",
+        "gui.uni-region.deselect.out",
+        "gui.uni-region.deselect.pool",
+        "gui.uni-region.select.in",
+        "gui.uni-region.select.out",
+        "gui.uni-region.select.pool",
+        "gui.uni-region.toggle_on_multi-region"
+    ]
+}

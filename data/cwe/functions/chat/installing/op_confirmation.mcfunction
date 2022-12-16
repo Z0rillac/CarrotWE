@@ -1,1 +1,2 @@
-tellraw @s ["",{"text":"To confirm that you are an operator, please do","color":"gold"},{"text":" "},{"text":"/function cwe:op","underlined":true,"color":"gray","clickEvent":{"action":"suggest_command","value":"/function cwe:op"}}]
+function cwe:lang/text/chat.op_confirmation
+function cwe:texts/tellraw

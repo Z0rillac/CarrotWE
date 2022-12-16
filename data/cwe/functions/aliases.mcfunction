@@ -12,5 +12,5 @@
 #alias entity cwe.gui.used @e[tag=cwe.gui.used,sort=nearest,limit=1]
 #alias entity cwe.area.selected_handle @e[tag=cwe.area.selected_handle,limit=1]
 
-#alias vector cwe.parser 29999996 1 15360001
+#alias vector cwe.parser 29999969 7 15360001
 #alias vector cwe.blockinput1 29999969 4 15360001

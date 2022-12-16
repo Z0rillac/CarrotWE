@@ -87,6 +87,11 @@ scoreboard players set #tutorial.step_5 cwe.ids 5
 scoreboard players set #tutorial.step_6 cwe.ids 6
 scoreboard players set #tutorial.done cwe.ids 7
 
+# lang
+scoreboard players set #lang.none cwe.ids 0
+scoreboard players set #lang.en-us cwe.ids 1
+scoreboard players set #lang.fr-fr cwe.ids 2
+
 # other
 scoreboard players set #default_mccl cwe.ids 65536
 scoreboard players set #min_mccl cwe.ids 8388608
