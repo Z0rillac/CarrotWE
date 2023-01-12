@@ -1,0 +1,1 @@
+execute if score gui.page cwe.temp = #gui.page.language cwe.ids run function cwe:gui/refresh/empty/gui.page.language

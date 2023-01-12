@@ -5,6 +5,7 @@
  # Created by Zorillac.
 ##
 
+item replace entity @s container.0 with minecraft:player_head{cwe.gui:"page.functions_list.language",cwe:1b,SkullOwner:{Id:[I;216713310,362631069,-1581070164,-562483421],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFkZDRmZTRhNDI5YWJkNjY1ZGZkYjNlMjEzMjFkNmVmYTZhNmI1ZTdiOTU2ZGI5YzVkNTljOWVmYWIyNSJ9fX0="}]}},display:{Name:'{"text":"\\u6587A","underlined":true,"color":"gray"}'}}
 
 function cwe:lang/text/gui.page.functions_list.shortcuts
 function cwe:texts/parse

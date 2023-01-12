@@ -58,3 +58,9 @@ data modify storage cwe:texts root.gui.uni-region.select.in.en-us set value '{"t
 data modify storage cwe:texts root.gui.uni-region.select.out.en-us set value '{"text":"New selection","italic":false}'
 data modify storage cwe:texts root.gui.uni-region.select.pool.en-us set value '{"text":"New block pool","italic":false}'
 data modify storage cwe:texts root.gui.uni-region.toggle_on_multi-region.en-us set value '{"text":"Toggle on multi-region (WIP)","italic":false}'
+
+data modify storage cwe:texts root.gui.lang.en-us.en-us set value '{"text":"English","italic":false,"color":"gold","underlined": true}'
+data modify storage cwe:texts root.gui.lang.fr-fr.en-us set value '{"text":"Français","italic":false,"color":"gray","underlined": true}'
+
+data modify storage cwe:texts root.gui.confirm.en-us set value '{"text":"Confirm \\u2714","italic":false,"color":"green"}'
+data modify storage cwe:texts root.gui.cancel.en-us set value '{"text":"Cancel \\u2716","italic":false,"color":"red"}'

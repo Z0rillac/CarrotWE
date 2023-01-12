@@ -57,6 +57,7 @@ scoreboard players set #gui.page.functions_list.cloning cwe.ids 04
 scoreboard players set #gui.page.functions_list.geometry cwe.ids 05
 scoreboard players set #gui.page.functions_list.brushes cwe.ids 06
 scoreboard players set #gui.page.functions_list.settings cwe.ids 07
+scoreboard players set #gui.page.language cwe.ids 02
 
 scoreboard players set #gui.type.empty cwe.ids 00
 scoreboard players set #gui.type.functions_list cwe.ids 01
@@ -73,9 +74,6 @@ scoreboard players set #gui.working.pool cwe.ids 04
 scoreboard players set #gui.working.pool_in cwe.ids 05
 scoreboard players set #gui.working.pool_out cwe.ids 06
 scoreboard players set #gui.working.pool_out_in cwe.ids 07
-
-scoreboard players set #gui.function.home cwe.ids 00
-scoreboard players set #gui.function. cwe.ids 00
 
 # tutorial
 scoreboard players set #tutorial.not_done cwe.ids 0

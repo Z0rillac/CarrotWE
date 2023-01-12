@@ -5,7 +5,8 @@
  # Created by Zorillac.
 ##
 
-scoreboard players set @s cwe.gui.id 0100000100
+scoreboard players set @s cwe.gui.id.type 01
+scoreboard players set @s cwe.gui.id.page 01
 scoreboard players set @s cwe.gui.minecart 0
 scoreboard players set @s cwe.wand.selected 0
 scoreboard players add @s cwe.raycast_mod 5

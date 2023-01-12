@@ -67,6 +67,22 @@
 		{
 			"id":"minecraft:dark_prismarine",
 			"required": false
+		},
+		{
+			"id":"minecraft:player_head",
+			"required": false
+		},
+		{
+			"id":"#minecraft:banners",
+			"required": false
+		},
+		{
+			"id":"minecraft:tipped_arrow",
+			"required": false
+		},
+		{
+			"id":"minecraft:red_dye",
+			"required": false
 		}
 	]
 }

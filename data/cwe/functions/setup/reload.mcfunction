@@ -61,10 +61,21 @@ scoreboard objectives add cwe.gui.minecart dummy
 scoreboard objectives add cwe.gui.x dummy
 scoreboard objectives add cwe.gui.y dummy
 scoreboard objectives add cwe.gui.z dummy
-scoreboard objectives add cwe.gui.id dummy
+scoreboard objectives add cwe.gui.id.page dummy
+scoreboard objectives add cwe.gui.id.type dummy
+scoreboard objectives add cwe.gui.id.multi dummy
+scoreboard objectives add cwe.gui.id.working dummy
+scoreboard objectives add cwe.gui.id.function dummy
 scoreboard objectives add cwe.ids dummy
 scoreboard objectives add cwe.tutorial dummy
 scoreboard objectives add cwe.untoast dummy
+
+scoreboard objectives add cwe.previous.main dummy
+scoreboard objectives add cwe.previous.gui.id.page dummy
+scoreboard objectives add cwe.previous.gui.id.type dummy
+scoreboard objectives add cwe.previous.gui.id.multi dummy
+scoreboard objectives add cwe.previous.gui.id.working dummy
+scoreboard objectives add cwe.previous.gui.id.function dummy
 
 team add cwe.none "cwe.none"
 team add cwe.in "cwe.in"

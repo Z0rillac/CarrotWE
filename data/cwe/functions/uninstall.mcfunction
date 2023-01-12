@@ -78,6 +78,13 @@ scoreboard objectives remove random_fill
 scoreboard objectives remove block_input
 scoreboard objectives remove skip_tutorial
 
+scoreboard objectives remove cwe.previous.main
+scoreboard objectives remove cwe.previous.gui.id.page
+scoreboard objectives remove cwe.previous.gui.id.type
+scoreboard objectives remove cwe.previous.gui.id.multi
+scoreboard objectives remove cwe.previous.gui.id.working
+scoreboard objectives remove cwe.previous.gui.id.function
+
 team remove cwe.none
 team remove cwe.in
 team remove cwe.out

@@ -63,6 +63,12 @@
         "gui.uni-region.select.in",
         "gui.uni-region.select.out",
         "gui.uni-region.select.pool",
-        "gui.uni-region.toggle_on_multi-region"
+        "gui.uni-region.toggle_on_multi-region",
+
+        "gui.lang.en-us",
+        "gui.lang.fr-fr",
+
+        "gui.confirm",
+        "gui.cancel"
     ]
 }

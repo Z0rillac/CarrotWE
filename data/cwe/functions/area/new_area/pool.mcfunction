@@ -17,7 +17,7 @@ execute if score gui.working cwe.temp = #gui.working.none cwe.ids run scoreboard
 execute if score gui.working cwe.temp = #gui.working.in cwe.ids run scoreboard players operation gui.working cwe.temp = #gui.working.pool_in cwe.ids
 execute if score gui.working cwe.temp = #gui.working.out cwe.ids run scoreboard players operation gui.working cwe.temp = #gui.working.pool_out cwe.ids
 execute if score gui.working cwe.temp = #gui.working.out_in cwe.ids run scoreboard players operation gui.working cwe.temp = #gui.working.pool_out_in cwe.ids
-execute as @s run function cwe:gui/set_gui
+execute as @s run function cwe:gui/set_ids
 function cwe:gui/refresh/run
 
 scoreboard players add global cwe.sid 1
