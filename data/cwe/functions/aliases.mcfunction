@@ -8,7 +8,7 @@
 #alias entity cwe.sid.target @e[tag=cwe.sid.target,limit=1]
 #alias entity cwe.user @a[tag=cwe.user,limit=1]
 #alias entity cwe.gui @e[tag=cwe.gui,sort=nearest,limit=1]
-#alias entity cwe.gui.user @e[tag=cwe.gui.user,sort=nearest,limit=1]
+#alias entity cwe.gui.user @a[tag=cwe.gui.user,sort=nearest,limit=1]
 #alias entity cwe.gui.used @e[tag=cwe.gui.used,sort=nearest,limit=1]
 #alias entity cwe.area.selected_handle @e[tag=cwe.area.selected_handle,limit=1]
 
