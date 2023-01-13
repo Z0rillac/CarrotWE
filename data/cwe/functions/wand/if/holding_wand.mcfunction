@@ -4,7 +4,7 @@ scoreboard players operation @s cwe.wand.state = #cwe.wand.holding cwe.ids
 #execute if score @s cwe.wand.selected matches 0 run function cwe:wand/hovering_handle_raycast
 #execute if score @s cwe.wand.selected matches 1.. run function cwe:wand/editing_corner
 execute if score @s cwe.wand.selected matches 0 run function cwe:lang/text/wand.holds_wand
-execute if score @s cwe.wand.selected matches 0 run function cwe:texts/actionbar_p2
+execute if score @s cwe.wand.selected matches 0 run function cwe:chat/display/actionbar_p2
 
 #hovering_handle
 scoreboard players set end cwe.temp 0

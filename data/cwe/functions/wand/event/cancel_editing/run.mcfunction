@@ -4,4 +4,4 @@ scoreboard players set @s cwe.wand.selected 0
 scoreboard players set @s cwe.wand.editing 0
 
 function cwe:lang/text/wand.modification_canceled
-function cwe:texts/actionbar_p1
+function cwe:chat/display/actionbar_p1

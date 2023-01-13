@@ -6,4 +6,4 @@
 ##
 
 function cwe:lang/text/function.random_fill.warn
-function cwe:texts/tellraw
+function cwe:chat/display/tellraw

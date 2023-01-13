@@ -7,4 +7,4 @@
 
 scoreboard players operation @s cwe.raycast_mod = #raycast_mod.block cwe.ids
 function cwe:lang/text/wand.raycast_mod.block
-function cwe:texts/actionbar_p1
+function cwe:chat/display/actionbar_p1

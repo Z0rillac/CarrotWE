@@ -18,6 +18,6 @@ execute if score gui.working cwe.temp = #gui.working.pool_out_in cwe.ids run fun
 
 # disabled
 function cwe:lang/text/gui.uni-region.toggle_on_multi-region
-function cwe:texts/parse
+function cwe:chat/display/parse
 item replace entity @s container.24 with black_stained_glass{display:{Name:'""'},cwe.gui:"uni-region.toggle_on_multi-region",cwe:1b}
 data modify entity @s Items[{Slot:24b}].tag.display.Name set from storage cwe:texts root.parsed

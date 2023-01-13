@@ -18,4 +18,4 @@ scoreboard players operation size cwe.temp *= sizeY cwe.temp
 scoreboard players operation size cwe.temp *= sizeZ cwe.temp
 
 function cwe:lang/text/wand.editing_corner
-function cwe:texts/actionbar_p2
+function cwe:chat/display/actionbar_p2
