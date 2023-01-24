@@ -20,7 +20,6 @@ scoreboard objectives add cwe.config dummy
 scoreboard objectives add cwe.wand.click minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add cwe.wand.state dummy
 scoreboard objectives add cwe.wand.editing dummy
-scoreboard objectives add cwe.player.sid dummy
 scoreboard objectives add cwe.player.first_co dummy
 scoreboard objectives add cwe.scheduled dummy
 scoreboard objectives add cwe.sid dummy
