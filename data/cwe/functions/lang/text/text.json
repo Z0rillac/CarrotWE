@@ -32,6 +32,12 @@
         "chat.op",
         "chat.op_confirmation",
 
+        "chat.functions.block_input",
+        "chat.functions.error_deselect",
+        "chat.functions.error_working_in",
+        "chat.functions.error_working_out",
+        "chat.functions.error_working_pool",
+
         "gui.page.functions_list.shortcuts",
         "gui.page.functions_list.filling",
         "gui.page.functions_list.replacing",
