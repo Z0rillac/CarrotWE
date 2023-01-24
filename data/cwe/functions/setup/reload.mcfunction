@@ -77,24 +77,7 @@ scoreboard objectives add cwe.previous.gui.id.multi dummy
 scoreboard objectives add cwe.previous.gui.id.working dummy
 scoreboard objectives add cwe.previous.gui.id.function dummy
 
-team add cwe.none "cwe.none"
-team add cwe.in "cwe.in"
-team add cwe.out "cwe.out"
-team add cwe.pool "cwe.pool"
-team add cwe.selected "cwe.selected"
-team add cwe.invalid "cwe.invalid"
-team add cwe.editing "cwe.editing"
-team add cwe.origin "cwe.origin"
-team modify cwe.none collisionRule never
-team modify cwe.in collisionRule never
-team modify cwe.out collisionRule never
-team modify cwe.pool collisionRule never
-team modify cwe.selected collisionRule never
-team modify cwe.invalid collisionRule never
-team modify cwe.editing collisionRule never
-team modify cwe.origin collisionRule never
-
-#triggers
+# triggers
 scoreboard objectives add wand trigger
 scoreboard objectives add select trigger
 scoreboard objectives add deselect trigger
@@ -114,7 +97,25 @@ scoreboard objectives add random_fill trigger
 scoreboard objectives add block_input trigger
 scoreboard objectives add skip_tutorial trigger
 
-#cfg
+# teams
+team add cwe.none "cwe.none"
+team add cwe.in "cwe.in"
+team add cwe.out "cwe.out"
+team add cwe.pool "cwe.pool"
+team add cwe.selected "cwe.selected"
+team add cwe.invalid "cwe.invalid"
+team add cwe.editing "cwe.editing"
+team add cwe.origin "cwe.origin"
+team modify cwe.none collisionRule never
+team modify cwe.in collisionRule never
+team modify cwe.out collisionRule never
+team modify cwe.pool collisionRule never
+team modify cwe.selected collisionRule never
+team modify cwe.invalid collisionRule never
+team modify cwe.editing collisionRule never
+team modify cwe.origin collisionRule never
+
+# cfg
 team modify cwe.none color white
 team modify cwe.in color yellow
 team modify cwe.out color green
@@ -129,8 +130,8 @@ scoreboard players set max_raycast_distance cwe.config 64
 bossbar set cwelib:progress color green
 #--
 
-function cwe:config
 function cwe:ids
+function cwe:config
 
 data merge storage cwe:texts {root:{}}
 function cwe:lang/load

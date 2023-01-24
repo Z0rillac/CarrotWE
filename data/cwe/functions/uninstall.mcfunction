@@ -7,6 +7,15 @@
 
 say §7Uninstalling CarrotWE v1.0.0-beta.2 ...
 
+scoreboard objectives remove _cwe.area.X0
+scoreboard objectives remove _cwe.area.Y0
+scoreboard objectives remove _cwe.area.Z0
+scoreboard objectives remove _cwe.area.X1
+scoreboard objectives remove _cwe.area.Y1
+scoreboard objectives remove _cwe.area.Z1
+scoreboard objectives remove _cwe.area.type
+scoreboard objectives remove _cwe.area.user
+
 scoreboard objectives remove cwe.main
 scoreboard objectives remove cwe.ops
 scoreboard objectives remove cwe.temp
@@ -30,7 +39,7 @@ scoreboard objectives remove cwe.handle.hover
 scoreboard objectives remove cwe.handle.hover_state
 scoreboard objectives remove cwe.handle.team
 scoreboard objectives remove cwe.area.type
-scoreboard objectives remove cwe.selected
+scoreboard objectives remove cwe.wand.selected
 scoreboard objectives remove cwe.selected.X
 scoreboard objectives remove cwe.selected.Y
 scoreboard objectives remove cwe.selected.Z
@@ -55,10 +64,23 @@ scoreboard objectives remove cwe.gui.minecart
 scoreboard objectives remove cwe.gui.x
 scoreboard objectives remove cwe.gui.y
 scoreboard objectives remove cwe.gui.z
-scoreboard objectives remove cwe.gui.id
+scoreboard objectives remove cwe.gui.id.page
+scoreboard objectives remove cwe.gui.id.type
+scoreboard objectives remove cwe.gui.id.multi
+scoreboard objectives remove cwe.gui.id.working
+scoreboard objectives remove cwe.gui.id.function
 scoreboard objectives remove cwe.ids
 scoreboard objectives remove cwe.tutorial
 scoreboard objectives remove cwe.untoast
+
+scoreboard objectives remove cwe.previous.main
+scoreboard objectives remove cwe.previous.gui.id.page
+scoreboard objectives remove cwe.previous.gui.id.type
+scoreboard objectives remove cwe.previous.gui.id.multi
+scoreboard objectives remove cwe.previous.gui.id.working
+scoreboard objectives remove cwe.previous.gui.id.function
+
+# triggers
 scoreboard objectives remove wand
 scoreboard objectives remove select
 scoreboard objectives remove deselect
@@ -78,13 +100,7 @@ scoreboard objectives remove random_fill
 scoreboard objectives remove block_input
 scoreboard objectives remove skip_tutorial
 
-scoreboard objectives remove cwe.previous.main
-scoreboard objectives remove cwe.previous.gui.id.page
-scoreboard objectives remove cwe.previous.gui.id.type
-scoreboard objectives remove cwe.previous.gui.id.multi
-scoreboard objectives remove cwe.previous.gui.id.working
-scoreboard objectives remove cwe.previous.gui.id.function
-
+# teams
 team remove cwe.none
 team remove cwe.in
 team remove cwe.out
