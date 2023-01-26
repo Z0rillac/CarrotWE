@@ -2,4 +2,4 @@
 ## MIT License
 ## Copyright (c) 2023 Z0rillac
 
-function dplib:core/thread/functions/kill/run
+execute unless score @s dplib.thread.already_killed matches 1 run function dplib:core/thread/functions/kill/run

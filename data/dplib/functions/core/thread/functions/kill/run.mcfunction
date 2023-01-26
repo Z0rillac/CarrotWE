@@ -3,6 +3,7 @@
 ## Copyright (c) 2023 Z0rillac
 
 scoreboard players remove threads dplib.thread 1
+scoreboard players set @s dplib.thread.already_killed 1
 
 scoreboard players operation search dplib.sid = @s dplib.sid.head
 execute as @e[predicate=dplib:sid/linked_to_limbs, tag=dplib.thread] run function dplib:thread/kill
