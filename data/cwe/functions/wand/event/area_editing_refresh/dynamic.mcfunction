@@ -32,17 +32,17 @@ execute store result score rotx cwe.temp run data get entity @s Rotation[0] 1
 execute store result score roty cwe.temp run data get entity @s Rotation[1] 1
 
 scoreboard players operation $in dplib.in = rotx cwe.temp
-function dplib:math/functions/fsin
+function dplib:math/functions/sin
 scoreboard players operation sin(rotx) cwe.temp = $out dplib.out
 scoreboard players operation sin(rotx) cwe.temp /= 15625000 cwe.temp
-function dplib:math/functions/fcos
+function dplib:math/functions/cos
 scoreboard players operation cos(rotx) cwe.temp = $out dplib.out
 scoreboard players operation cos(rotx) cwe.temp /= 15625000 cwe.temp
 scoreboard players operation $in dplib.in = roty cwe.temp
-function dplib:math/functions/fsin
+function dplib:math/functions/sin
 scoreboard players operation sin(roty) cwe.temp = $out dplib.out
 scoreboard players operation sin(roty) cwe.temp /= 15625000 cwe.temp
-function dplib:math/functions/fcos
+function dplib:math/functions/cos
 scoreboard players operation cos(roty) cwe.temp = $out dplib.out
 scoreboard players operation cos(roty) cwe.temp /= 15625000 cwe.temp
 #100000

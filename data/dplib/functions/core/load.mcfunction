@@ -1,25 +1,14 @@
-# - Datapack Library -
-# By: Zorillac
-# MIT License
-#
-# Version: 1
-# namespace: dplib
-
-# THIS IS NOT A CONFIG FILE
-# Making changes in this file may have no effect or it may be destructive,
-# but no changes after a configuration attempt are guaranteed to work.
+## Datapack Library v1.2
+## MIT License
+## Copyright (c) 2023 Z0rillac
 
 scoreboard objectives add dplib.temp dummy
 scoreboard objectives add dplib.in dummy
 scoreboard objectives add dplib.out dummy
-scoreboard objectives add dplib.raycast dummy
+
 function dplib:core/math/const/load
-
-scoreboard objectives add dplib.time dummy
-scoreboard players set timestamp_ms dplib.time 0
-scoreboard players set tps_scale dplib.time 1000
-scoreboard players set #tick dplib.time 0
-
-kill @e[tag=dplib.raycasting]
-summon minecraft:marker ~ ~ ~ {Tags: ["dplib","dplib.raycasting","global.ignore"]}
-#alias entity raycasting @e[tag=dplib.raycasting,limit=1]
+function dplib:core/time/load
+function dplib:core/sid/load
+function dplib:core/thread/load
+function dplib:thread/ids
+function dplib:core/benchmark/load

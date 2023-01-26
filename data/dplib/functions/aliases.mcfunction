@@ -1,9 +1,6 @@
-# - Datapack Library -
-# By: Zorillac
-# MIT License
-#
-# Version: 1
-# namespace: dplib
+## Datapack Library v1.2
+## MIT License
+## Copyright (c) 2023 Z0rillac
 
 #declare score_holder $in
 #declare score_holder $in1
@@ -38,6 +35,8 @@
 #declare score_holder 10000000
 #declare score_holder 100000000
 #declare score_holder 1000000000
+#declare score_holder 2
+#declare score_holder 3
 #declare score_holder 180
 #declare score_holder 360
 #declare score_holder 2^31-1
@@ -49,3 +48,6 @@
 #declare score_holder e
 
 #declare score_holder 2^<0..30>
+
+#alias entity dplib.sid.target @e[tag=dplib.sid.target,limit=1]
+#alias entity dplib.thread.new_thread @e[tag=dplib.thread.new_thread,limit=1]
