@@ -6,7 +6,7 @@
 ##
 
 summon chest_minecart ~ ~ ~ {Tags:["cwe","cwe.gui","cwe.gui.used","global.ignore"],Silent:1b,Invulnerable:1b,NoGravity:1b,CustomName:'"CarrotWE v1.0.0-beta.2"'}
-scoreboard players operation @e[tag=cwe.gui.used,limit=1] cwe.sid.limbs = @s cwe.sid.head
+scoreboard players operation @e[tag=cwe.gui.used,limit=1] dplib.sid.limbs = @s dplib.sid.head
 
 function cwe:gui/refresh/run
 

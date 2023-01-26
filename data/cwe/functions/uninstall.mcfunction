@@ -25,9 +25,6 @@ scoreboard objectives remove cwe.wand.state
 scoreboard objectives remove cwe.wand.editing
 scoreboard objectives remove cwe.player.first_co
 scoreboard objectives remove cwe.scheduled
-scoreboard objectives remove cwe.sid
-scoreboard objectives remove cwe.sid.limbs
-scoreboard objectives remove cwe.sid.head
 scoreboard objectives remove cwe.area.X0
 scoreboard objectives remove cwe.area.Y0
 scoreboard objectives remove cwe.area.Z0

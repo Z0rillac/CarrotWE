@@ -22,9 +22,6 @@ scoreboard objectives add cwe.wand.state dummy
 scoreboard objectives add cwe.wand.editing dummy
 scoreboard objectives add cwe.player.first_co dummy
 scoreboard objectives add cwe.scheduled dummy
-scoreboard objectives add cwe.sid dummy
-scoreboard objectives add cwe.sid.limbs dummy
-scoreboard objectives add cwe.sid.head dummy
 scoreboard objectives add cwe.area.X0 dummy
 scoreboard objectives add cwe.area.Y0 dummy
 scoreboard objectives add cwe.area.Z0 dummy

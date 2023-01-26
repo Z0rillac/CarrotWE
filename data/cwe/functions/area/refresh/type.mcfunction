@@ -7,5 +7,5 @@
 
 scoreboard players operation type cwe.temp = @s cwe.area.type
 
-scoreboard players operation search cwe.sid = @s cwe.sid.head
-execute as @e[tag=cwe.area_part,predicate=cwe:linked_to_limbs] run function cwe:area/refresh/as/type
+scoreboard players operation search dplib.sid = @s dplib.sid.head
+execute as @e[tag=cwe.area_part,predicate=dplib:sid/linked_to_limbs] run function cwe:area/refresh/as/type

@@ -12,5 +12,5 @@ scoreboard players operation X1 cwe.temp = @s cwe.area.X1
 scoreboard players operation Y1 cwe.temp = @s cwe.area.Y1
 scoreboard players operation Z1 cwe.temp = @s cwe.area.Z1
 
-scoreboard players operation search cwe.sid = @s cwe.sid.head
-execute as @e[tag=cwe.corner,predicate=cwe:linked_to_limbs] run function cwe:area/refresh/as/pos
+scoreboard players operation search dplib.sid = @s dplib.sid.head
+execute as @e[tag=cwe.corner,predicate=dplib:sid/linked_to_limbs] run function cwe:area/refresh/as/pos
