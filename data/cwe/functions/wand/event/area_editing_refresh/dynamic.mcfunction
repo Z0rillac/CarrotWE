@@ -31,20 +31,20 @@ scoreboard players set pz cwe.temp 0
 execute store result score rotx cwe.temp run data get entity @s Rotation[0] 1
 execute store result score roty cwe.temp run data get entity @s Rotation[1] 1
 
-scoreboard players operation $in dplib.in = rotx cwe.temp
-function dplib:math/functions/sin
-scoreboard players operation sin(rotx) cwe.temp = $out dplib.out
-scoreboard players operation sin(rotx) cwe.temp /= 15625000 cwe.temp
-function dplib:math/functions/cos
-scoreboard players operation cos(rotx) cwe.temp = $out dplib.out
-scoreboard players operation cos(rotx) cwe.temp /= 15625000 cwe.temp
-scoreboard players operation $in dplib.in = roty cwe.temp
-function dplib:math/functions/sin
-scoreboard players operation sin(roty) cwe.temp = $out dplib.out
-scoreboard players operation sin(roty) cwe.temp /= 15625000 cwe.temp
-function dplib:math/functions/cos
-scoreboard players operation cos(roty) cwe.temp = $out dplib.out
-scoreboard players operation cos(roty) cwe.temp /= 15625000 cwe.temp
+scoreboard players operation $in dplib.math.in = rotx cwe.temp
+scoreboard players operation $scale dplib.math.in = 2^6 dplib.const
+function dplib.math:functions/sin
+scoreboard players operation sin(rotx) cwe.temp = $scaled dplib.math.out
+function dplib.math:functions/cos
+scoreboard players operation cos(rotx) cwe.temp = $scaled dplib.math.out
+
+scoreboard players operation $in dplib.math.in = roty cwe.temp
+scoreboard players operation $scale dplib.math.in = 2^6 dplib.const
+function dplib.math:functions/sin
+scoreboard players operation sin(roty) cwe.temp = $scaled dplib.math.out
+function dplib.math:functions/cos
+scoreboard players operation cos(roty) cwe.temp = $scaled dplib.math.out
+
 #100000
 
 scoreboard players operation xoffset cwe.temp = sin(rotx) cwe.temp
