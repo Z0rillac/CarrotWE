@@ -5,6 +5,9 @@
  # Created by Zorillac.
 ##
 
+function dplib.math:load
+function dplib.threading:load
+
 scoreboard objectives add _cwe.area.X0 dummy
 scoreboard objectives add _cwe.area.Y0 dummy
 scoreboard objectives add _cwe.area.Z0 dummy

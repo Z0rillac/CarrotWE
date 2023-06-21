@@ -1,9 +1,9 @@
 scoreboard players set @s cwe.wand.editing 1
 
 #save coordinates
-scoreboard players operation @s cwe.wand.selected = @e[tag=cwe.area.selected_handle,limit=1] dplib.sid.limbs
-scoreboard players operation search dplib.sid = @s cwe.wand.selected
-execute as @e[tag=cwe.area,predicate=dplib:sid/linked_to_head] run function cwe:wand/event/edit_area/save_coordinates
+scoreboard players operation @s cwe.wand.selected = @e[tag=cwe.area.selected_handle,limit=1] dplib.threading.child
+scoreboard players operation target dplib.threading.main = @s cwe.wand.selected
+execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/edit_area/save_coordinates
 scoreboard players operation @s cwe.selected.previous.X0 = cwe.area.X0 cwe.temp
 scoreboard players operation @s cwe.selected.previous.Y0 = cwe.area.Y0 cwe.temp
 scoreboard players operation @s cwe.selected.previous.Z0 = cwe.area.Z0 cwe.temp

@@ -5,7 +5,6 @@
  # Created by Zorillac.
 ##
 
-#alias entity dplib.sid.target @e[tag=dplib.sid.target,limit=1]
 #alias entity cwe.user @a[tag=cwe.user,limit=1]
 #alias entity cwe.gui @e[tag=cwe.gui,sort=nearest,limit=1]
 #alias entity cwe.gui.user @a[tag=cwe.gui.user,sort=nearest,limit=1]

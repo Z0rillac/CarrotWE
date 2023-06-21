@@ -7,8 +7,8 @@
 
 scoreboard players set 2 cwe.temp 2
 scoreboard players set 15625000 cwe.temp 15625000
-scoreboard players operation search dplib.sid = @s cwe.wand.selected
-execute as @e[tag=cwe.area,predicate=dplib:sid/linked_to_head] run function cwe:wand/event/area_editing_refresh/get_coordinates
+scoreboard players operation target dplib.threading.main = @s cwe.wand.selected
+execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/area_editing_refresh/get_coordinates
 
 execute store result score x cwe.temp run data get entity @s Pos[0] 64
 execute store result score y cwe.temp run data get entity @s Pos[1] 64
@@ -31,20 +31,20 @@ scoreboard players set pz cwe.temp 0
 execute store result score rotx cwe.temp run data get entity @s Rotation[0] 1
 execute store result score roty cwe.temp run data get entity @s Rotation[1] 1
 
-scoreboard players operation $in dplib.in = rotx cwe.temp
-function dplib:math/functions/sin
-scoreboard players operation sin(rotx) cwe.temp = $out dplib.out
-scoreboard players operation sin(rotx) cwe.temp /= 15625000 cwe.temp
-function dplib:math/functions/cos
-scoreboard players operation cos(rotx) cwe.temp = $out dplib.out
-scoreboard players operation cos(rotx) cwe.temp /= 15625000 cwe.temp
-scoreboard players operation $in dplib.in = roty cwe.temp
-function dplib:math/functions/sin
-scoreboard players operation sin(roty) cwe.temp = $out dplib.out
-scoreboard players operation sin(roty) cwe.temp /= 15625000 cwe.temp
-function dplib:math/functions/cos
-scoreboard players operation cos(roty) cwe.temp = $out dplib.out
-scoreboard players operation cos(roty) cwe.temp /= 15625000 cwe.temp
+scoreboard players operation $in dplib.math.in = rotx cwe.temp
+scoreboard players operation $scale dplib.math.in = 2^6 dplib.const
+function dplib.math:functions/sin
+scoreboard players operation sin(rotx) cwe.temp = $scaled dplib.math.out
+function dplib.math:functions/cos
+scoreboard players operation cos(rotx) cwe.temp = $scaled dplib.math.out
+
+scoreboard players operation $in dplib.math.in = roty cwe.temp
+scoreboard players operation $scale dplib.math.in = 2^6 dplib.const
+function dplib.math:functions/sin
+scoreboard players operation sin(roty) cwe.temp = $scaled dplib.math.out
+function dplib.math:functions/cos
+scoreboard players operation cos(roty) cwe.temp = $scaled dplib.math.out
+
 #100000
 
 scoreboard players operation xoffset cwe.temp = sin(rotx) cwe.temp
@@ -65,5 +65,5 @@ scoreboard players operation px cwe.temp /= 2^6 dplib.const
 scoreboard players operation py cwe.temp /= 2^6 dplib.const
 scoreboard players operation pz cwe.temp /= 2^6 dplib.const
 
-scoreboard players operation search dplib.sid = @s cwe.wand.selected
-execute as @e[tag=cwe.area,predicate=dplib:sid/linked_to_head] run function cwe:wand/event/area_editing_refresh/dynamic/set
+scoreboard players operation target dplib.threading.main = @s cwe.wand.selected
+execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/area_editing_refresh/dynamic/set

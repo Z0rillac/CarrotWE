@@ -1,1 +1,0 @@
-execute as @e[tag=dplib.thread,type=marker] at @s run function dplib:thread/scheduler
