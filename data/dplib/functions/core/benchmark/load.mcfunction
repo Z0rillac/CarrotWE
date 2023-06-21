@@ -1,1 +1,0 @@
-scoreboard objectives add dplib.benchmark dummy
