@@ -7,6 +7,7 @@
 
 function cwelib:area/get_in
 function cwelib:functions/clone/simple/get_pattern
+function cwelib:gamerules/do_tile_drops_false
 
 scoreboard players set xPartSize cwelib.temp 0
 scoreboard players set yPartSize cwelib.temp 0
@@ -42,6 +43,6 @@ tp @e[tag=cwelib.z,limit=1] 29999999 1 15360000
 
 fill 29999968 16 15360000 29999999 47 15360031 air
 
+function cwelib:gamerules/do_tile_drops_true
 scoreboard players set x cwelib.main 0
-
 bossbar set cwelib:progress value 0

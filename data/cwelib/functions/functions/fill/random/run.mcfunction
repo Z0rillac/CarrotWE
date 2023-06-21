@@ -7,6 +7,7 @@
 
 function cwelib:area/get_out
 function cwelib:pool/init
+function cwelib:gamerules/do_tile_drops_false
 
 scoreboard players set x cwelib.main 0
 scoreboard players set y cwelib.main 0
@@ -27,9 +28,10 @@ data modify entity @e[tag=cwelib.out,limit=1] Pos set from storage cwelib:pos ro
 execute as @e[tag=cwelib.out,limit=1] at @s run function cwelib:functions/fill/random/xyz
 tp @e[tag=cwelib.out,limit=1] 29999999 1 15360000
 
-scoreboard players set x cwelib.main 0
 scoreboard players operation affectedBlocks cwelib.main = blocks cwelib.main
 
 function cwelib:pool/quit
 
+function cwelib:gamerules/do_tile_drops_true
+scoreboard players set x cwelib.main 0
 bossbar set cwelib:progress value 0
