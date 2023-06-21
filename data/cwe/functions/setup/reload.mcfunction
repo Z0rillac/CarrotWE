@@ -8,15 +8,6 @@
 function dplib.math:load
 function dplib.threading:load
 
-scoreboard objectives add _cwe.area.X0 dummy
-scoreboard objectives add _cwe.area.Y0 dummy
-scoreboard objectives add _cwe.area.Z0 dummy
-scoreboard objectives add _cwe.area.X1 dummy
-scoreboard objectives add _cwe.area.Y1 dummy
-scoreboard objectives add _cwe.area.Z1 dummy
-scoreboard objectives add _cwe.area.type dummy
-scoreboard objectives add _cwe.area.user dummy
-
 scoreboard objectives add cwe.ops dummy
 scoreboard objectives add cwe.temp dummy
 scoreboard objectives add cwe.config dummy
