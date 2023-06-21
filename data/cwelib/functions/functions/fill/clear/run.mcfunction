@@ -24,11 +24,11 @@ execute store result bossbar cwelib:progress max run scoreboard players get outS
 execute store result storage cwelib:pos root.Pos[0] double 1 run scoreboard players get outX0 cwelib.areas
 execute store result storage cwelib:pos root.Pos[1] double 1 run scoreboard players get outY0 cwelib.areas
 execute store result storage cwelib:pos root.Pos[2] double 1 run scoreboard players get outZ0 cwelib.areas
-data modify entity @e[tag=cwelib.out,limit=1] Pos set from storage cwelib:pos root.Pos
+data modify entity @e[type=marker,tag=cwelib.out,limit=1] Pos set from storage cwelib:pos root.Pos
 
 function cwelib:functions/fill/clear/load_x
-execute as @e[tag=cwelib.out,limit=1] at @s run function cwelib:functions/fill/clear/xyz
-tp @e[tag=cwelib.out,limit=1] 29999999 1 15360000
+execute as @e[type=marker,tag=cwelib.out,limit=1] at @s run function cwelib:functions/fill/clear/xyz
+tp @e[type=marker,tag=cwelib.out,limit=1] 29999999 1 15360000
 
 function cwelib:gamerules/do_tile_drops_true
 scoreboard players set x cwelib.main 0

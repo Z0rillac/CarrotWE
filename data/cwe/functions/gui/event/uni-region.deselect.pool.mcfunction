@@ -12,7 +12,7 @@ execute if score gui.working cwe.temp = #gui.working.pool_out_in cwe.ids run sco
 execute as @a[tag=cwe.gui.user,sort=nearest,limit=1] run function cwe:gui/set_ids
 
 scoreboard players operation target dplib.threading.main = @a[tag=cwe.gui.user,sort=nearest,limit=1] cwe.working.pool
-execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:area/remove
+execute as @e[type=marker,tag=cwe.area,predicate=dplib.threading:parent] run function cwe:area/remove
 scoreboard players set @a[tag=cwe.gui.user,sort=nearest,limit=1] cwe.working.pool 0
 
 function cwe:gui/close/run

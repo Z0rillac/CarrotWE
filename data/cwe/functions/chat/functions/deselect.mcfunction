@@ -10,4 +10,4 @@ execute if score @s cwe.working.out = @s deselect run scoreboard players set @s 
 execute if score @s cwe.working.pool = @s deselect run scoreboard players set @s cwe.working.pool 0
 
 scoreboard players operation target dplib.threading.main = @s deselect
-execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:area/remove
+execute as @e[type=marker,tag=cwe.area,predicate=dplib.threading:parent] run function cwe:area/remove

@@ -19,7 +19,7 @@ bossbar remove cwelib:progresss
 
 function cwelib:cache/uninstall
 
-execute as @e[tag=cwelib.forceload] at @s unless entity @e[tag=!cwelib.forceload,tag=global.forceload,dx=15,dy=319,dz=15] run forceload remove ~ ~
-kill @e[tag=cwelib.forceload]
+execute as @e[type=marker,tag=cwelib.forceload] at @s unless entity @e[type=marker,tag=!cwelib.forceload,tag=global.forceload,dx=15,dy=319,dz=15] run forceload remove ~ ~
+kill @e[type=marker,tag=cwelib.forceload]
 
 kill @e[tag=cwelib]

@@ -8,7 +8,7 @@
 scoreboard players set 2 cwe.temp 2
 scoreboard players set 15625000 cwe.temp 15625000
 scoreboard players operation target dplib.threading.main = @s cwe.wand.selected
-execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/area_editing_refresh/get_coordinates
+execute as @e[type=marker,tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/area_editing_refresh/get_coordinates
 
 execute store result score x cwe.temp run data get entity @s Pos[0] 64
 execute store result score y cwe.temp run data get entity @s Pos[1] 64
@@ -66,4 +66,4 @@ scoreboard players operation py cwe.temp /= 2^6 dplib.const
 scoreboard players operation pz cwe.temp /= 2^6 dplib.const
 
 scoreboard players operation target dplib.threading.main = @s cwe.wand.selected
-execute as @e[tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/area_editing_refresh/dynamic/set
+execute as @e[type=marker,tag=cwe.area,predicate=dplib.threading:parent] run function cwe:wand/event/area_editing_refresh/dynamic/set

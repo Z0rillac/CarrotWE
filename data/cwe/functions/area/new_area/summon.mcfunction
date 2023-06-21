@@ -51,7 +51,7 @@ summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Sile
 summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Silent:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b},{Id:11,Duration:2147483647,Amplifier:255,ShowParticles:0b}],Team:"cwe.none",Glowing:1b,Tags:["cwe","cwe.type.none","cwe.corner.23","dplib.threading.target","global.ignore","cwe.corner","cwe.area_part"],Attributes:[{Name:"generic.armor",Base:30d},{Name:"generic.max_health",Base:1024d}],Health:1024f}
 summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Silent:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b},{Id:11,Duration:2147483647,Amplifier:255,ShowParticles:0b}],Team:"cwe.none",Glowing:1b,Tags:["cwe","cwe.type.none","cwe.corner.24","dplib.threading.target","global.ignore","cwe.corner","cwe.area_part"],Attributes:[{Name:"generic.armor",Base:30d},{Name:"generic.max_health",Base:1024d}],Health:1024f}
 summon slime ~ ~ ~ {PersistenceRequired:true,Invulnerable:1b,NoAI:1b,Size:1,Silent:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b},{Id:11,Duration:2147483647,Amplifier:255,ShowParticles:0b}],Team:"cwe.none",Glowing:1b,Tags:["cwe","cwe.type.none","cwe.corner.25","dplib.threading.target","global.ignore","cwe.corner","cwe.area_part"],Attributes:[{Name:"generic.armor",Base:30d},{Name:"generic.max_health",Base:1024d}],Health:1024f}
-execute as @e[tag=dplib.threading.target] run scoreboard players set @s cwe.handle.hover_state 0
+execute as @e[type=slime,tag=dplib.threading.target] run scoreboard players set @s cwe.handle.hover_state 0
 function dplib.threading:hierarchy/set_parent_of
 
 scoreboard players operation created_area_id cwe.temp = @s dplib.threading.parent

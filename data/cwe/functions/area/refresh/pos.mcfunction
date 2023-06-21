@@ -13,4 +13,4 @@ scoreboard players operation Y1 cwe.temp = @s cwe.area.Y1
 scoreboard players operation Z1 cwe.temp = @s cwe.area.Z1
 
 scoreboard players operation target dplib.threading.main = @s dplib.threading.parent
-execute as @e[tag=cwe.corner,predicate=dplib.threading:child] run function cwe:area/refresh/as/pos
+execute as @e[type=slime,tag=cwe.corner,predicate=dplib.threading:child] run function cwe:area/refresh/as/pos

@@ -5,4 +5,4 @@
  # Created by Zorillac.
 ##
 
-tp @e[tag=cwelib.in,limit=1] 29999999 1 15360000
+tp @e[type=marker,tag=cwelib.in,limit=1] 29999999 1 15360000

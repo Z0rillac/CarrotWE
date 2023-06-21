@@ -97,7 +97,7 @@ team remove cwe.invalid
 team remove cwe.editing
 team remove cwe.origin
 
-execute as @e[tag=cwe.area] run function cwe:area/remove
+execute as @e[type=marker,tag=cwe.area] run function cwe:area/remove
 kill @e[tag=cwe]
 
 data remove storage cwe:texts root

@@ -7,9 +7,9 @@
 
 summon minecraft:marker ~ ~ ~ {Tags: ["cwe","cwe.new_area","global.ignore"]}
 
-scoreboard players operation @e[tag=cwe.new_area,limit=1] cwe.area.type = #type.in cwe.ids
+scoreboard players operation @e[type=marker,tag=cwe.new_area,limit=1] cwe.area.type = #type.in cwe.ids
 
-execute as @e[tag=cwe.new_area,limit=1] run function cwe:area/new_area/summon
+execute as @e[type=marker,tag=cwe.new_area,limit=1] run function cwe:area/new_area/summon
 
 scoreboard players operation @s cwe.working.in = created_area_id cwe.temp
 
