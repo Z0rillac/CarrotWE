@@ -5,8 +5,6 @@
  # Created by Zorillac.
 ##
 
-execute unless score global dplib.sid matches 2.. run scoreboard players add global dplib.sid 2
-
 execute store result score mccl cwe.temp run gamerule maxCommandChainLength
 execute if score mccl cwe.temp < #min_mccl cwe.ids run gamerule maxCommandChainLength 8388608
 

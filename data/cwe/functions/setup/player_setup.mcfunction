@@ -12,9 +12,6 @@ scoreboard players set @s cwe.wand.selected 0
 scoreboard players add @s cwe.raycast_mod 5
 scoreboard players set @s cwe.wand.editing 0
 
-scoreboard players operation @s dplib.sid.head = global dplib.sid
-scoreboard players add global dplib.sid 1
-
 scoreboard players set @s cwe.player.first_co 1
 
 function cwe:tutorial/reset

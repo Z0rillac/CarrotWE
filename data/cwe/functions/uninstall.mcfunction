@@ -129,6 +129,9 @@ data remove storage abcl:storage temp
 function cwelib:uninstall
 function dplib:uninstall
 
+function dplib.math:uninstall
+function dplib.threading:uninstall
+
 scoreboard objectives add cwe.disable dummy
 scoreboard players set success cwe.disable 0
 execute if score success cwe.disable matches 0 store success score success cwe.disable run datapack disable "file/CarrotWE"
