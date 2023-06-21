@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dplib:core/tick",
         "cwelib:tick",
         "abcl:tick",
         "cwe:tick"

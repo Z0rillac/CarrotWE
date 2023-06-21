@@ -127,7 +127,6 @@ setblock 29999969 7 15360001 air
 data remove storage abcl:storage temp
 
 function cwelib:uninstall
-function dplib:uninstall
 
 function dplib.math:uninstall
 function dplib.threading:uninstall
